@@ -1,9 +1,8 @@
 scala-js-game-2
 ---------------
 
-A work-in-progress game being developed using [scala-js](http://lampwww.epfl.ch/~doeraene/scala-js/)
-
-See the [live demo](http://lihaoyi.github.io/roll/), best under Firefox or Chrome
+A multiplayer single-machine-js game modified from Haoyi Li's roll project. 
+(http://lihaoyi.github.io/roll/), best under Firefox or Chrome. 
 
 License
 -------
