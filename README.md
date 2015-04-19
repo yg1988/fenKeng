@@ -2,7 +2,7 @@ scala-js-game-2
 ---------------
 
 A multiplayer single-machine-js game modified from Haoyi Li's roll project. 
-(http://lihaoyi.github.io/roll/), best under Firefox or Chrome. 
+
 
 License
 -------
