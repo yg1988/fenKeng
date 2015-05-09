@@ -43,7 +43,8 @@ class GameHolder(canvas: dom.HTMLCanvasElement){
     game.recalc()
   }
   def level = levels(selectedIndex)
-  var running = false
+  //made the program starts with default map in the begining
+  var running = true//false
   var storedInputs: List[Level.Input] = Nil
   val game = Calc {
     new gameplay.Level(level.file, new cp.Vect(canvas.width, canvas.height))
@@ -91,7 +92,7 @@ class GameHolder(canvas: dom.HTMLCanvasElement){
         game().update(level.inputs.head.copy(painter = in.painter))
         level.inputs = level.inputs.tail
       }
-      draw(in.painter, in.screenSize)
+      //draw(in.painter, in.screenSize)
       if (in.keyPresses(KeyCode.enter)){
         running = true
       }

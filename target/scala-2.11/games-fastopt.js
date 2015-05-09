@@ -1174,9 +1174,6 @@ ScalaJS.i.sc_IndexedSeqOptimized$class__reverse__sc_IndexedSeqOptimized__O = (fu
 ScalaJS.i.sc_IndexedSeqOptimized$class__isEmpty__sc_IndexedSeqOptimized__Z = (function($$this) {
   return ($$this.length__I() === 0)
 });
-ScalaJS.i.sc_IndexedSeqOptimized$class__dropRight__sc_IndexedSeqOptimized__I__O = (function($$this, n) {
-  return $$this.slice__I__I__O(0, (($$this.length__I() - n) | 0))
-});
 ScalaJS.i.sc_IndexedSeqOptimized$class__slice__sc_IndexedSeqOptimized__I__I__O = (function($$this, from, until) {
   var lo = ((from > 0) ? from : 0);
   var x = ((until > 0) ? until : 0);
@@ -3918,41 +3915,6 @@ ScalaJS.h.Lroll_GameHolder = (function() {
   /*<skip>*/
 });
 ScalaJS.h.Lroll_GameHolder.prototype = ScalaJS.c.Lroll_GameHolder.prototype;
-ScalaJS.c.Lroll_GameHolder.prototype.draw__Lorg_scalajs_dom_CanvasRenderingContext2D__Lroll_cp_Vect__V = (function(ctx, viewPort) {
-  ctx["fillStyle"] = "rgba(0, 0, 0, 0.25)";
-  ctx["fillRect"](0.0, 0.0, ScalaJS.uD(viewPort["x"]), ScalaJS.uD(viewPort["y"]));
-  var jsx$1 = viewPort["y"];
-  var this$1 = this.levels$1;
-  var rowHeight = ((ScalaJS.uD(jsx$1) * 0.8) / ScalaJS.i.sc_LinearSeqOptimized$class__length__sc_LinearSeqOptimized__I(this$1));
-  var this$3 = this.levels$1;
-  var this$2 = ScalaJS.m.sci_List();
-  var bf = this$2.ReusableCBFInstance$2;
-  ScalaJS.as.sc_TraversableLike(ScalaJS.i.sc_IterableLike$class__zipWithIndex__sc_IterableLike__scg_CanBuildFrom__O(this$3, bf)).withFilter__F1__scg_FilterMonadic(new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(check$ifrefutable$1$2) {
-    var check$ifrefutable$1 = ScalaJS.as.T2(check$ifrefutable$1$2);
-    return (check$ifrefutable$1 !== null)
-  }))).foreach__F1__V(new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(arg$outer, ctx$1, viewPort$1, rowHeight$1) {
-    return (function(x$2$2) {
-      var x$2 = ScalaJS.as.T2(x$2$2);
-      if ((x$2 !== null)) {
-        var level = ScalaJS.as.Lroll_GameHolder$LevelData(x$2.$$und1__O());
-        var i = x$2.$$und2$mcI$sp__I();
-        ctx$1["fillStyle"] = ((i === arg$outer.selectedIndex$1) ? "yellow" : (level.completed$1 ? "SpringGreen" : "white"));
-        ctx$1["font"] = ((rowHeight$1 | 0) + "px Lucida Grande");
-        ctx$1["textBaseline"] = "top";
-        var x = level.file$1;
-        var this$5 = new ScalaJS.c.sci_StringOps().init___T(x);
-        var n = ScalaJS.i.sjsr_RuntimeString$class__length__sjsr_RuntimeString__I("levels/");
-        var until = ScalaJS.m.sci_StringOps().length$extension__T__I(this$5.repr$1);
-        var x$1 = ScalaJS.m.sci_StringOps().slice$extension__T__I__I__T(this$5.repr$1, n, until);
-        var this$7 = new ScalaJS.c.sci_StringOps().init___T(x$1);
-        var n$1 = ScalaJS.i.sjsr_RuntimeString$class__length__sjsr_RuntimeString__I(".svg");
-        ctx$1["fillText"]((ScalaJS.as.T(ScalaJS.i.sc_IndexedSeqOptimized$class__dropRight__sc_IndexedSeqOptimized__I__O(this$7, n$1)) + (level.completed$1 ? "\u2713" : "")), (ScalaJS.uD(viewPort$1["x"]) / 10), ((ScalaJS.uD(viewPort$1["y"]) * 0.1) + (i * rowHeight$1)))
-      } else {
-        throw new ScalaJS.c.s_MatchError().init___O(x$2)
-      }
-    })
-  })(this, ctx, viewPort, rowHeight)))
-});
 ScalaJS.c.Lroll_GameHolder.prototype.level__Lroll_GameHolder$LevelData = (function() {
   var this$1 = this.levels$1;
   var n = this.selectedIndex$1;
@@ -3990,7 +3952,6 @@ ScalaJS.c.Lroll_GameHolder.prototype.update__Lroll_gameplay_Level$Input__O = (fu
       ScalaJS.as.Lroll_gameplay_Level(jsx$1).update__Lroll_gameplay_Level$Input__Lroll_gameplay_Level$Result(new ScalaJS.c.Lroll_gameplay_Level$Input().init___sci_Set__sci_Set__sc_Seq__Lroll_cp_Vect__Lorg_scalajs_dom_CanvasRenderingContext2D(x$5, x$6, x$7, x$8, x$4));
       this.level__Lroll_GameHolder$LevelData().inputs$1 = ScalaJS.as.sc_Seq(this.level__Lroll_GameHolder$LevelData().inputs$1.tail__O())
     };
-    this.draw__Lorg_scalajs_dom_CanvasRenderingContext2D__Lroll_cp_Vect__V(in$2.painter$1, in$2.screenSize$1);
     var this$5 = in$2.keyPresses$1;
     var elem = ScalaJS.m.Lorg_scalajs_dom_extensions_KeyCode().enter$1;
     if (this$5.contains__O__Z(elem)) {
@@ -4024,7 +3985,7 @@ ScalaJS.c.Lroll_GameHolder.prototype.init___Lorg_scalajs_dom_HTMLCanvasElement =
   var this$2 = ScalaJS.m.sci_List();
   this.levels$1 = ScalaJS.as.sci_List(jsx$2.map__F1__scg_CanBuildFrom__O(jsx$1, this$2.ReusableCBFInstance$2));
   this.selectedIndex$1 = 0;
-  this.running$1 = false;
+  this.running$1 = true;
   this.storedInputs$1 = ScalaJS.m.sci_Nil();
   var thunk = new ScalaJS.c.sjsr_AnonFunction0().init___sjs_js_Function0((function(arg$outer$1) {
     return (function() {
@@ -25813,11 +25774,11 @@ ScalaJS.c.sc_AbstractSeq.prototype.thisCollection__sc_Seq = (function() {
 ScalaJS.c.sc_AbstractSeq.prototype.toSeq__sc_Seq = (function() {
   return this.thisCollection__sc_Seq()
 });
-ScalaJS.c.sc_AbstractSeq.prototype.hashCode__I = (function() {
-  return ScalaJS.m.s_util_hashing_MurmurHash3().seqHash__sc_Seq__I(this.seq__sc_Seq())
-});
 ScalaJS.c.sc_AbstractSeq.prototype.applyOrElse__O__F1__O = (function(x, default$2) {
   return ScalaJS.i.s_PartialFunction$class__applyOrElse__s_PartialFunction__O__F1__O(this, x, default$2)
+});
+ScalaJS.c.sc_AbstractSeq.prototype.hashCode__I = (function() {
+  return ScalaJS.m.s_util_hashing_MurmurHash3().seqHash__sc_Seq__I(this.seq__sc_Seq())
 });
 ScalaJS.is.sc_AbstractSeq = (function(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.sc_AbstractSeq)))

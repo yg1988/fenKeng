@@ -1,11 +1,11 @@
-[info] Updating {file:/Users/Owner/Downloads/roll-master/project/}roll-master-build...
-[debug] :: resolving dependencies :: default#roll-master-build;0.1-SNAPSHOT
+[info] Updating {file:/Users/Owner/GitHub/fenKeng/project/}fenkeng-build...
+[debug] :: resolving dependencies :: default#fenkeng-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
-[debug] == resolving dependencies for default#roll-master-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3 [compile->default(compile)]
+[debug] == resolving dependencies for default#fenkeng-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3
@@ -127,14 +127,14 @@
 [debug] == resolving dependencies org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3->org.webjars#envjs;1.2 [compile->runtime]
 [debug] == resolving dependencies org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3->org.webjars#envjs;1.2 [compile->compile]
 [debug] == resolving dependencies org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3->org.webjars#envjs;1.2 [compile->master]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->default(compile)]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->default(compile)]
 [info] Resolving com.lihaoyi#workbench;0.1.5 ...
 [debug] sbt-chain: Checking cache for: dependency: com.lihaoyi#workbench;0.1.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: com.lihaoyi#workbench;0.1.5
 [debug] 	typesafe-ivy-releases: revision in cache: com.lihaoyi#workbench;0.1.5
 [debug] 	found com.lihaoyi#workbench;0.1.5 in sbt-chain
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->runtime]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->compile]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->runtime]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->compile]
 [debug] == resolving dependencies com.lihaoyi#workbench;0.1.5->io.spray#spray-can;1.3.1 [compile->master(*)]
 [info] Resolving io.spray#spray-can;1.3.1 ...
 [debug] sbt-chain: Checking cache for: dependency: io.spray#spray-can;1.3.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
@@ -353,20 +353,20 @@
 [debug] == resolving dependencies com.lihaoyi#workbench;0.1.5->com.typesafe.akka#akka-actor_2.10;2.3.0 [runtime->compile]
 [debug] == resolving dependencies com.lihaoyi#workbench;0.1.5->com.lihaoyi#upickle_2.10;0.2.1 [runtime->runtime(*)]
 [debug] == resolving dependencies com.lihaoyi#workbench;0.1.5->com.lihaoyi#upickle_2.10;0.2.1 [runtime->compile]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->master]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->default(compile)]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->master]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->default(compile)]
 [info] Resolving commons-codec#commons-codec;1.9 ...
 [debug] sbt-chain: Checking cache for: dependency: commons-codec#commons-codec;1.9 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: commons-codec#commons-codec;1.9
 [debug] 	typesafe-ivy-releases: revision in cache: commons-codec#commons-codec;1.9
 [debug] 	found commons-codec#commons-codec;1.9 in sbt-chain
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->runtime]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->compile]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->master]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->runtime]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->compile]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
-[debug] == resolving dependencies for default#roll-master-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#roll-master-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3 [compile->default(compile)]
+[debug] == resolving dependencies for default#fenkeng-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#fenkeng-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3->org.scala-lang.modules.scalajs#scalajs-tools_2.10;0.5.3 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-lang.modules.scalajs#scalajs-tools_2.10;0.5.3->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-lang.modules.scalajs#scalajs-tools_2.10;0.5.3->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -416,9 +416,9 @@
 [debug] == resolving dependencies org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3->org.webjars#envjs;1.2 [compile->runtime]
 [debug] == resolving dependencies org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3->org.webjars#envjs;1.2 [compile->compile]
 [debug] == resolving dependencies org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3->org.webjars#envjs;1.2 [compile->master]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->default(compile)]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->runtime]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->compile]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->default(compile)]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->runtime]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->compile]
 [debug] == resolving dependencies com.lihaoyi#workbench;0.1.5->io.spray#spray-can;1.3.1 [compile->master(*)]
 [debug] == resolving dependencies com.lihaoyi#workbench;0.1.5->io.spray#spray-can;1.3.1 [compile->compile(*)]
 [debug] == resolving dependencies io.spray#spray-can;1.3.1->io.spray#spray-io;1.3.1 [compile->master(*)]
@@ -564,16 +564,16 @@
 [debug] == resolving dependencies com.lihaoyi#workbench;0.1.5->com.lihaoyi#upickle_2.10;0.2.1 [runtime->compile]
 [debug] == resolving dependencies com.lihaoyi#upickle_2.10;0.2.1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
 [debug] == resolving dependencies com.lihaoyi#upickle_2.10;0.2.1->org.scala-lang#scala-library;2.10.4 [runtime->compile]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->master]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->default(compile)]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->runtime]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->compile]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->master]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->master]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->default(compile)]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->runtime]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->compile]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->master]
 [debug] resolving dependencies for configuration 'test'
-[debug] == resolving dependencies for default#roll-master-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#roll-master-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#roll-master-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3 [compile->default(compile)]
+[debug] == resolving dependencies for default#fenkeng-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#fenkeng-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#fenkeng-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3->org.scala-lang.modules.scalajs#scalajs-tools_2.10;0.5.3 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-lang.modules.scalajs#scalajs-tools_2.10;0.5.3->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-lang.modules.scalajs#scalajs-tools_2.10;0.5.3->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -623,9 +623,9 @@
 [debug] == resolving dependencies org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3->org.webjars#envjs;1.2 [compile->runtime]
 [debug] == resolving dependencies org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3->org.webjars#envjs;1.2 [compile->compile]
 [debug] == resolving dependencies org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3->org.webjars#envjs;1.2 [compile->master]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->default(compile)]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->runtime]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->compile]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->default(compile)]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->runtime]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->compile]
 [debug] == resolving dependencies com.lihaoyi#workbench;0.1.5->io.spray#spray-can;1.3.1 [compile->master(*)]
 [debug] == resolving dependencies com.lihaoyi#workbench;0.1.5->io.spray#spray-can;1.3.1 [compile->compile(*)]
 [debug] == resolving dependencies io.spray#spray-can;1.3.1->io.spray#spray-io;1.3.1 [compile->master(*)]
@@ -771,23 +771,23 @@
 [debug] == resolving dependencies com.lihaoyi#workbench;0.1.5->com.lihaoyi#upickle_2.10;0.2.1 [runtime->compile]
 [debug] == resolving dependencies com.lihaoyi#upickle_2.10;0.2.1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
 [debug] == resolving dependencies com.lihaoyi#upickle_2.10;0.2.1->org.scala-lang#scala-library;2.10.4 [runtime->compile]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->master]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->default(compile)]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->runtime]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->compile]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->master]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->master]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->default(compile)]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->runtime]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->compile]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->master]
 [debug] resolving dependencies for configuration 'provided'
-[debug] == resolving dependencies for default#roll-master-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [provided->default(compile)]
+[debug] == resolving dependencies for default#fenkeng-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [provided->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@64e52206
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@537f2338
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.2
 [debug] 	typesafe-ivy-releases: revision in cache: org.scala-lang#scala-library;2.10.2
 [debug] 	found org.scala-lang#scala-library;2.10.2 in sbt-chain
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [provided->runtime]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [provided->compile]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [provided->master]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.0 [provided->default(compile)]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [provided->runtime]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [provided->compile]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [provided->master]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.0 [provided->default(compile)]
 [info] Resolving org.scala-sbt#sbt;0.13.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.0 {provided=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.0
@@ -1330,11 +1330,11 @@
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.0->org.scala-lang#scala-library;2.10.2 [compile->compile]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.0->org.scala-lang#scala-library;2.10.2 [compile->master]
 [debug] resolving dependencies for configuration 'optional'
-[debug] == resolving dependencies for default#roll-master-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#fenkeng-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'compile-internal'
-[debug] == resolving dependencies for default#roll-master-build;0.1-SNAPSHOT [compile-internal]
-[debug] == resolving dependencies for default#roll-master-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3 [compile->default(compile)]
+[debug] == resolving dependencies for default#fenkeng-build;0.1-SNAPSHOT [compile-internal]
+[debug] == resolving dependencies for default#fenkeng-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3->org.scala-lang.modules.scalajs#scalajs-tools_2.10;0.5.3 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-lang.modules.scalajs#scalajs-tools_2.10;0.5.3->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-lang.modules.scalajs#scalajs-tools_2.10;0.5.3->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -1384,9 +1384,9 @@
 [debug] == resolving dependencies org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3->org.webjars#envjs;1.2 [compile->runtime]
 [debug] == resolving dependencies org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3->org.webjars#envjs;1.2 [compile->compile]
 [debug] == resolving dependencies org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3->org.webjars#envjs;1.2 [compile->master]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->default(compile)]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->runtime]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->compile]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->default(compile)]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->runtime]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->compile]
 [debug] == resolving dependencies com.lihaoyi#workbench;0.1.5->io.spray#spray-can;1.3.1 [compile->master(*)]
 [debug] == resolving dependencies com.lihaoyi#workbench;0.1.5->io.spray#spray-can;1.3.1 [compile->compile(*)]
 [debug] == resolving dependencies io.spray#spray-can;1.3.1->io.spray#spray-io;1.3.1 [compile->master(*)]
@@ -1532,19 +1532,19 @@
 [debug] == resolving dependencies com.lihaoyi#workbench;0.1.5->com.lihaoyi#upickle_2.10;0.2.1 [runtime->compile]
 [debug] == resolving dependencies com.lihaoyi#upickle_2.10;0.2.1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
 [debug] == resolving dependencies com.lihaoyi#upickle_2.10;0.2.1->org.scala-lang#scala-library;2.10.4 [runtime->compile]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->master]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->default(compile)]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->runtime]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->compile]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->master]
-[debug] == resolving dependencies for default#roll-master-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#roll-master-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [provided->default(compile)]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.0 [provided->default(compile)]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->master]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->default(compile)]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->runtime]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->compile]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->master]
+[debug] == resolving dependencies for default#fenkeng-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#fenkeng-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [provided->default(compile)]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.0 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.0->org.scala-sbt#main;0.13.0 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#main;0.13.0->org.scala-sbt#actions;0.13.0 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#actions;0.13.0->org.scala-sbt#classpath;0.13.0 [compile->default(compile)]
@@ -1915,10 +1915,10 @@
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.0->org.scala-lang#scala-library;2.10.4 [compile->compile]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.0->org.scala-lang#scala-library;2.10.4 [compile->master]
 [debug] resolving dependencies for configuration 'runtime-internal'
-[debug] == resolving dependencies for default#roll-master-build;0.1-SNAPSHOT [runtime-internal]
-[debug] == resolving dependencies for default#roll-master-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#roll-master-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3 [compile->default(compile)]
+[debug] == resolving dependencies for default#fenkeng-build;0.1-SNAPSHOT [runtime-internal]
+[debug] == resolving dependencies for default#fenkeng-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#fenkeng-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3->org.scala-lang.modules.scalajs#scalajs-tools_2.10;0.5.3 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-lang.modules.scalajs#scalajs-tools_2.10;0.5.3->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-lang.modules.scalajs#scalajs-tools_2.10;0.5.3->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -1968,9 +1968,9 @@
 [debug] == resolving dependencies org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3->org.webjars#envjs;1.2 [compile->runtime]
 [debug] == resolving dependencies org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3->org.webjars#envjs;1.2 [compile->compile]
 [debug] == resolving dependencies org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3->org.webjars#envjs;1.2 [compile->master]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->default(compile)]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->runtime]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->compile]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->default(compile)]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->runtime]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->compile]
 [debug] == resolving dependencies com.lihaoyi#workbench;0.1.5->io.spray#spray-can;1.3.1 [compile->master(*)]
 [debug] == resolving dependencies com.lihaoyi#workbench;0.1.5->io.spray#spray-can;1.3.1 [compile->compile(*)]
 [debug] == resolving dependencies io.spray#spray-can;1.3.1->io.spray#spray-io;1.3.1 [compile->master(*)]
@@ -2116,18 +2116,18 @@
 [debug] == resolving dependencies com.lihaoyi#workbench;0.1.5->com.lihaoyi#upickle_2.10;0.2.1 [runtime->compile]
 [debug] == resolving dependencies com.lihaoyi#upickle_2.10;0.2.1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
 [debug] == resolving dependencies com.lihaoyi#upickle_2.10;0.2.1->org.scala-lang#scala-library;2.10.4 [runtime->compile]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->master]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->default(compile)]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->runtime]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->compile]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->master]
-[debug] == resolving dependencies for default#roll-master-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->master]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->default(compile)]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->runtime]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->compile]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->master]
+[debug] == resolving dependencies for default#fenkeng-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'test-internal'
-[debug] == resolving dependencies for default#roll-master-build;0.1-SNAPSHOT [test-internal]
-[debug] == resolving dependencies for default#roll-master-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#roll-master-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#roll-master-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3 [compile->default(compile)]
+[debug] == resolving dependencies for default#fenkeng-build;0.1-SNAPSHOT [test-internal]
+[debug] == resolving dependencies for default#fenkeng-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#fenkeng-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#fenkeng-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3->org.scala-lang.modules.scalajs#scalajs-tools_2.10;0.5.3 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-lang.modules.scalajs#scalajs-tools_2.10;0.5.3->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-lang.modules.scalajs#scalajs-tools_2.10;0.5.3->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -2177,9 +2177,9 @@
 [debug] == resolving dependencies org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3->org.webjars#envjs;1.2 [compile->runtime]
 [debug] == resolving dependencies org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3->org.webjars#envjs;1.2 [compile->compile]
 [debug] == resolving dependencies org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3->org.webjars#envjs;1.2 [compile->master]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->default(compile)]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->runtime]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->compile]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->default(compile)]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->runtime]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->compile]
 [debug] == resolving dependencies com.lihaoyi#workbench;0.1.5->io.spray#spray-can;1.3.1 [compile->master(*)]
 [debug] == resolving dependencies com.lihaoyi#workbench;0.1.5->io.spray#spray-can;1.3.1 [compile->compile(*)]
 [debug] == resolving dependencies io.spray#spray-can;1.3.1->io.spray#spray-io;1.3.1 [compile->master(*)]
@@ -2325,19 +2325,19 @@
 [debug] == resolving dependencies com.lihaoyi#workbench;0.1.5->com.lihaoyi#upickle_2.10;0.2.1 [runtime->compile]
 [debug] == resolving dependencies com.lihaoyi#upickle_2.10;0.2.1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
 [debug] == resolving dependencies com.lihaoyi#upickle_2.10;0.2.1->org.scala-lang#scala-library;2.10.4 [runtime->compile]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->master]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->default(compile)]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->runtime]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->compile]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->master]
-[debug] == resolving dependencies for default#roll-master-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#roll-master-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [provided->default(compile)]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.0 [provided->default(compile)]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->com.lihaoyi#workbench;0.1.5 [compile->master]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->default(compile)]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->runtime]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->compile]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->master]
+[debug] == resolving dependencies for default#fenkeng-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#fenkeng-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [provided->default(compile)]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.0 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.0->org.scala-sbt#main;0.13.0 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#main;0.13.0->org.scala-sbt#actions;0.13.0 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#actions;0.13.0->org.scala-sbt#classpath;0.13.0 [compile->default(compile)]
@@ -2708,18 +2708,18 @@
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.0->org.scala-lang#scala-library;2.10.4 [compile->compile]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.0->org.scala-lang#scala-library;2.10.4 [compile->master]
 [debug] resolving dependencies for configuration 'plugin'
-[debug] == resolving dependencies for default#roll-master-build;0.1-SNAPSHOT [plugin]
+[debug] == resolving dependencies for default#fenkeng-build;0.1-SNAPSHOT [plugin]
 [debug] resolving dependencies for configuration 'sources'
-[debug] == resolving dependencies for default#roll-master-build;0.1-SNAPSHOT [sources]
+[debug] == resolving dependencies for default#fenkeng-build;0.1-SNAPSHOT [sources]
 [debug] resolving dependencies for configuration 'docs'
-[debug] == resolving dependencies for default#roll-master-build;0.1-SNAPSHOT [docs]
+[debug] == resolving dependencies for default#fenkeng-build;0.1-SNAPSHOT [docs]
 [debug] resolving dependencies for configuration 'pom'
-[debug] == resolving dependencies for default#roll-master-build;0.1-SNAPSHOT [pom]
+[debug] == resolving dependencies for default#fenkeng-build;0.1-SNAPSHOT [pom]
 [debug] resolving dependencies for configuration 'scala-tool'
-[debug] == resolving dependencies for default#roll-master-build;0.1-SNAPSHOT [scala-tool]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.2 [scala-tool->default]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.2 [scala-tool->runtime]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.2 [scala-tool->compile]
+[debug] == resolving dependencies for default#fenkeng-build;0.1-SNAPSHOT [scala-tool]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.2 [scala-tool->default]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.2 [scala-tool->runtime]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.2 [scala-tool->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.2->org.scala-lang#scala-library;2.10.2 [compile->master(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.2->org.scala-lang#scala-library;2.10.2 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.2->org.scala-lang#scala-library;2.10.2 [compile->default]
@@ -2737,8 +2737,8 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.2->org.scala-lang#scala-reflect;2.10.2 [runtime->compile]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.2->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.2->org.scala-lang#scala-library;2.10.2 [runtime->compile]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.2 [scala-tool->master]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.2 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.2 [scala-tool->master]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.2 [scala-tool->optional(default)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.2->org.scala-lang#jline;2.10.2 [optional->master(*)]
 [info] Resolving org.scala-lang#jline;2.10.2 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.2 {optional=[compile(*), master(*)]}
@@ -2753,12 +2753,12 @@
 [debug] 	typesafe-ivy-releases: revision in cache: org.fusesource.jansi#jansi;1.4
 [debug] 	found org.fusesource.jansi#jansi;1.4 in sbt-chain
 [debug] == resolving dependencies org.scala-lang#jline;2.10.2->org.fusesource.jansi#jansi;1.4 [compile->compile(*)]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [scala-tool->default]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [scala-tool->runtime]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [scala-tool->compile]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [scala-tool->master]
-[debug] == resolving dependencies default#roll-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [scala-tool->optional(default)]
-[debug] 	resolved ivy file produced in /Users/Owner/Downloads/roll-master/project/target/resolution-cache/default/roll-master-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [scala-tool->default]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [scala-tool->runtime]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [scala-tool->compile]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [scala-tool->master]
+[debug] == resolving dependencies default#fenkeng-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [scala-tool->optional(default)]
+[debug] 	resolved ivy file produced in /Users/Owner/GitHub/fenKeng/project/target/resolution-cache/default/fenkeng-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-lang.modules.scalajs#scalajs-sbt-plugin;0.5.3!scalajs-sbt-plugin.jar
 [debug] 	[NOT REQUIRED] com.lihaoyi#workbench;0.1.5!workbench.jar
@@ -2836,19 +2836,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.0!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.2!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 5675ms :: artifacts dl 96ms
-[debug] 	report for default#roll-master-build;0.1-SNAPSHOT compile produced in /Users/Owner/Downloads/roll-master/project/target/resolution-cache/reports/default-roll-master-build-compile.xml
-[debug] 	report for default#roll-master-build;0.1-SNAPSHOT runtime produced in /Users/Owner/Downloads/roll-master/project/target/resolution-cache/reports/default-roll-master-build-runtime.xml
-[debug] 	report for default#roll-master-build;0.1-SNAPSHOT test produced in /Users/Owner/Downloads/roll-master/project/target/resolution-cache/reports/default-roll-master-build-test.xml
-[debug] 	report for default#roll-master-build;0.1-SNAPSHOT provided produced in /Users/Owner/Downloads/roll-master/project/target/resolution-cache/reports/default-roll-master-build-provided.xml
-[debug] 	report for default#roll-master-build;0.1-SNAPSHOT optional produced in /Users/Owner/Downloads/roll-master/project/target/resolution-cache/reports/default-roll-master-build-optional.xml
-[debug] 	report for default#roll-master-build;0.1-SNAPSHOT compile-internal produced in /Users/Owner/Downloads/roll-master/project/target/resolution-cache/reports/default-roll-master-build-compile-internal.xml
-[debug] 	report for default#roll-master-build;0.1-SNAPSHOT runtime-internal produced in /Users/Owner/Downloads/roll-master/project/target/resolution-cache/reports/default-roll-master-build-runtime-internal.xml
-[debug] 	report for default#roll-master-build;0.1-SNAPSHOT test-internal produced in /Users/Owner/Downloads/roll-master/project/target/resolution-cache/reports/default-roll-master-build-test-internal.xml
-[debug] 	report for default#roll-master-build;0.1-SNAPSHOT plugin produced in /Users/Owner/Downloads/roll-master/project/target/resolution-cache/reports/default-roll-master-build-plugin.xml
-[debug] 	report for default#roll-master-build;0.1-SNAPSHOT sources produced in /Users/Owner/Downloads/roll-master/project/target/resolution-cache/reports/default-roll-master-build-sources.xml
-[debug] 	report for default#roll-master-build;0.1-SNAPSHOT docs produced in /Users/Owner/Downloads/roll-master/project/target/resolution-cache/reports/default-roll-master-build-docs.xml
-[debug] 	report for default#roll-master-build;0.1-SNAPSHOT pom produced in /Users/Owner/Downloads/roll-master/project/target/resolution-cache/reports/default-roll-master-build-pom.xml
-[debug] 	report for default#roll-master-build;0.1-SNAPSHOT scala-tool produced in /Users/Owner/Downloads/roll-master/project/target/resolution-cache/reports/default-roll-master-build-scala-tool.xml
-[debug] 	resolve done (5675ms resolve - 96ms download)
+[debug] :: resolution report :: resolve 2336ms :: artifacts dl 72ms
+[debug] 	report for default#fenkeng-build;0.1-SNAPSHOT compile produced in /Users/Owner/GitHub/fenKeng/project/target/resolution-cache/reports/default-fenkeng-build-compile.xml
+[debug] 	report for default#fenkeng-build;0.1-SNAPSHOT runtime produced in /Users/Owner/GitHub/fenKeng/project/target/resolution-cache/reports/default-fenkeng-build-runtime.xml
+[debug] 	report for default#fenkeng-build;0.1-SNAPSHOT test produced in /Users/Owner/GitHub/fenKeng/project/target/resolution-cache/reports/default-fenkeng-build-test.xml
+[debug] 	report for default#fenkeng-build;0.1-SNAPSHOT provided produced in /Users/Owner/GitHub/fenKeng/project/target/resolution-cache/reports/default-fenkeng-build-provided.xml
+[debug] 	report for default#fenkeng-build;0.1-SNAPSHOT optional produced in /Users/Owner/GitHub/fenKeng/project/target/resolution-cache/reports/default-fenkeng-build-optional.xml
+[debug] 	report for default#fenkeng-build;0.1-SNAPSHOT compile-internal produced in /Users/Owner/GitHub/fenKeng/project/target/resolution-cache/reports/default-fenkeng-build-compile-internal.xml
+[debug] 	report for default#fenkeng-build;0.1-SNAPSHOT runtime-internal produced in /Users/Owner/GitHub/fenKeng/project/target/resolution-cache/reports/default-fenkeng-build-runtime-internal.xml
+[debug] 	report for default#fenkeng-build;0.1-SNAPSHOT test-internal produced in /Users/Owner/GitHub/fenKeng/project/target/resolution-cache/reports/default-fenkeng-build-test-internal.xml
+[debug] 	report for default#fenkeng-build;0.1-SNAPSHOT plugin produced in /Users/Owner/GitHub/fenKeng/project/target/resolution-cache/reports/default-fenkeng-build-plugin.xml
+[debug] 	report for default#fenkeng-build;0.1-SNAPSHOT sources produced in /Users/Owner/GitHub/fenKeng/project/target/resolution-cache/reports/default-fenkeng-build-sources.xml
+[debug] 	report for default#fenkeng-build;0.1-SNAPSHOT docs produced in /Users/Owner/GitHub/fenKeng/project/target/resolution-cache/reports/default-fenkeng-build-docs.xml
+[debug] 	report for default#fenkeng-build;0.1-SNAPSHOT pom produced in /Users/Owner/GitHub/fenKeng/project/target/resolution-cache/reports/default-fenkeng-build-pom.xml
+[debug] 	report for default#fenkeng-build;0.1-SNAPSHOT scala-tool produced in /Users/Owner/GitHub/fenKeng/project/target/resolution-cache/reports/default-fenkeng-build-scala-tool.xml
+[debug] 	resolve done (2336ms resolve - 72ms download)
 [info] Done updating.

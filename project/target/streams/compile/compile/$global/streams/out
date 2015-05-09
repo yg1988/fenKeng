@@ -1,0 +1,60 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/Users/Owner/GitHub/fenKeng/project/Build.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/Owner/GitHub/fenKeng/project/Build.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/Owner/GitHub/fenKeng/project/Build.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /Users/Owner/GitHub/fenKeng/project/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.4[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.4[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 1006dc5d, interfacing (CompilerInterface) with Scala compiler version 2.10.4[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/classes:/Users/Owner/.sbt/boot/scala-2.10.4/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/Owner/GitHub/fenKeng/project/target/scala-2.10/classes:/Users/Owner/.ivy2/cache/scala_2.10/sbt_0.13/org.scala-lang.modules.scalajs/scalajs-sbt-plugin/jars/scalajs-sbt-plugin-0.5.3.jar:/Users/Owner/.ivy2/cache/org.scala-lang.modules.scalajs/scalajs-tools_2.10/jars/scalajs-tools_2.10-0.5.3.jar:/Users/Owner/.ivy2/cache/com.google.javascript/closure-compiler/jars/closure-compiler-v20130603.jar:/Users/Owner/.ivy2/cache/args4j/args4j/jars/args4j-2.0.16.jar:/Users/Owner/.ivy2/cache/com.google.guava/guava/bundles/guava-14.0.1.jar:/Users/Owner/.ivy2/cache/com.google.protobuf/protobuf-java/jars/protobuf-java-2.4.1.jar:/Users/Owner/.ivy2/cache/org.json/json/jars/json-20090211.jar:/Users/Owner/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-1.3.9.jar:/Users/Owner/.ivy2/cache/com.googlecode.json-simple/json-simple/bundles/json-simple-1.1.1.jar:/Users/Owner/.ivy2/cache/junit/junit/jars/junit-4.10.jar:/Users/Owner/.ivy2/cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.1.jar:/Users/Owner/.ivy2/cache/org.mozilla/rhino/jars/rhino-1.7R4.jar:/Users/Owner/.ivy2/cache/org.webjars/envjs/jars/envjs-1.2.jar:/Users/Owner/.ivy2/cache/scala_2.10/sbt_0.13/com.lihaoyi/workbench/jars/workbench-0.1.5.jar:/Users/Owner/.ivy2/cache/io.spray/spray-can/bundles/spray-can-1.3.1.jar:/Users/Owner/.ivy2/cache/io.spray/spray-io/bundles/spray-io-1.3.1.jar:/Users/Owner/.ivy2/cache/io.spray/spray-util/bundles/spray-util-1.3.1.jar:/Users/Owner/.ivy2/cache/io.spray/spray-http/bundles/spray-http-1.3.1.jar:/Users/Owner/.ivy2/cache/org.parboiled/parboiled-scala_2.10/bundles/parboiled-scala_2.10-1.1.6.jar:/Users/Owner/.ivy2/cache/org.parboiled/parboiled-core/bundles/parboiled-core-1.1.6.jar:/Users/Owner/.ivy2/cache/io.spray/spray-routing/bundles/spray-routing-1.3.1.jar:/Users/Owner/.ivy2/cache/io.spray/spray-httpx/bundles/spray-httpx-1.3.1.jar:/Users/Owner/.ivy2/cache/org.jvnet.mimepull/mimepull/jars/mimepull-1.9.4.jar:/Users/Owner/.ivy2/cache/com.chuusai/shapeless_2.10/jars/shapeless_2.10-1.2.4.jar:/Users/Owner/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/jars/akka-actor_2.10-2.3.0.jar:/Users/Owner/.ivy2/cache/com.typesafe/config/bundles/config-1.2.0.jar:/Users/Owner/.ivy2/cache/com.lihaoyi/upickle_2.10/jars/upickle_2.10-0.2.1.jar:/Users/Owner/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.9.jar[0m
+[0m[[31merror[0m] [0m/Users/Owner/GitHub/fenKeng/project/Build.scala:2: not found: object Keys[0m
+[0m[[31merror[0m] [0mimport Keys._[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0mbad symbolic reference. A signature in ScalaJSPlugin.class refers to type Plugin[0m
+[0m[[31merror[0m] [0min package sbt which is not available.[0m
+[0m[[31merror[0m] [0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[31merror[0m] [0mthe classpath might be incompatible with the version used when compiling ScalaJSPlugin.class.[0m
+[0m[[31merror[0m] [0mbad symbolic reference. A signature in Plugin.class refers to type Plugin[0m
+[0m[[31merror[0m] [0min package sbt which is not available.[0m
+[0m[[31merror[0m] [0mIt may be completely missing from the current classpath, or the version on[0m
+[0m[[31merror[0m] [0mthe classpath might be incompatible with the version used when compiling Plugin.class.[0m
+[0m[[31merror[0m] [0m/Users/Owner/GitHub/fenKeng/project/Build.scala:10: type Build is not a member of package sbt[0m
+[0m[[31merror[0m] [0mobject Build extends sbt.Build {[0m
+[0m[[31merror[0m] [0m                         ^[0m
+[0m[[31merror[0m] [0m/Users/Owner/GitHub/fenKeng/project/Build.scala:12: type Plugin is not a member of package sbt[0m
+[0m[[31merror[0m] [0m  object Bundle extends sbt.Plugin {[0m
+[0m[[31merror[0m] [0m                            ^[0m
+[0m[[31merror[0m] [0m/Users/Owner/GitHub/fenKeng/project/Build.scala:13: not found: value settingKey[0m
+[0m[[31merror[0m] [0m    val bundledDirectory = settingKey[File]("The folder where all to-be-bundled resources comes from")[0m
+[0m[[31merror[0m] [0m                           ^[0m
+[0m[[31merror[0m] [0m/Users/Owner/GitHub/fenKeng/project/Build.scala:14: not found: value settingKey[0m
+[0m[[31merror[0m] [0m    val bundleName = settingKey[String]("The final name of the resource bundle")[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/Users/Owner/GitHub/fenKeng/project/Build.scala:15: not found: value taskKey[0m
+[0m[[31merror[0m] [0m    val bundleJS = taskKey[Set[File]]("bundles your filesystem tree inside bundleDirectory into a single file")[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0m/Users/Owner/GitHub/fenKeng/project/Build.scala:17: not found: value watchSources[0m
+[0m[[31merror[0m] [0m      watchSources := {[0m
+[0m[[31merror[0m] [0m      ^[0m
+[0m[[31merror[0m] [0m/Users/Owner/GitHub/fenKeng/project/Build.scala:54: not found: value project[0m
+[0m[[31merror[0m] [0m  lazy val root = project.in(file("."))[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m10 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompile[0m) Compilation failed[0m

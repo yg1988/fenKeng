@@ -1,12 +1,12 @@
-[0m[[0minfo[0m] [0mFast optimizing /Users/Owner/Downloads/roll-master/target/scala-2.11/games-fastopt.js[0m
-[0m[[0mdebug[0m] [0mRead info: 12497 us[0m
-[0m[[0mdebug[0m] [0mCompute reachability: 434892 us[0m
-[0m[[0mdebug[0m] [0mOptimizer batch mode: false[0m
-[0m[[0mdebug[0m] [0mIncremental part of inc. optimizer: 87579 us[0m
-[0m[[0mdebug[0m] [0mOptimizing 309 methods.[0m
-[0m[[0mdebug[0m] [0mOptimizer part of inc. optimizer: 347771 us[0m
-[0m[[0mdebug[0m] [0mInliner: 435680 us[0m
-[0m[[0mdebug[0m] [0mRefined reachability analysis: 304598 us[0m
-[0m[[0mdebug[0m] [0mOptimizations part: 1176939 us[0m
-[0m[[0mdebug[0m] [0mWrite DCE'ed output: 950502 us[0m
-[0m[[0mdebug[0m] [0mInc. opt stats: reused: 3383 -- invalidated: 1 -- trees read: 1[0m
+[0m[[0minfo[0m] [0mFast optimizing /Users/Owner/GitHub/fenKeng/target/scala-2.11/games-fastopt.js[0m
+[0m[[0mdebug[0m] [0mRead info: 176848 us[0m
+[0m[[0mdebug[0m] [0mCompute reachability: 335292 us[0m
+[0m[[0mdebug[0m] [0mOptimizer batch mode: true[0m
+[0m[[0mdebug[0m] [0mIncremental part of inc. optimizer: 640964 us[0m
+[0m[[0mdebug[0m] [0mOptimizing 4341 methods.[0m
+[0m[[0mdebug[0m] [0mOptimizer part of inc. optimizer: 1707231 us[0m
+[0m[[0mdebug[0m] [0mInliner: 2353332 us[0m
+[0m[[0mdebug[0m] [0mRefined reachability analysis: 95708 us[0m
+[0m[[0mdebug[0m] [0mOptimizations part: 2786919 us[0m
+[0m[[0mdebug[0m] [0mWrite DCE'ed output: 1324916 us[0m
+[0m[[0mdebug[0m] [0mInc. opt stats: reused: 0 -- invalidated: 3384 -- trees read: 434[0m
