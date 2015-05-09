@@ -1,14 +1,14 @@
 scala-js-game-2
 ---------------
 
-A multiplayer single-machine-js game modified from Haoyi Li's roll project. 
+A multiplayer single-machine-js game modified from Haoyi Li's roll project. The goal of the game is that players take turn to control one ball and try to bump the other balls into the hole. see demo at http://yg1988.github.io/fenKeng/
 
 
 License
 -------
 The MIT License (MIT)
 
-Copyright (c) 2013 Li Haoyi
+Copyright (c) 2015 Guang Yang
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

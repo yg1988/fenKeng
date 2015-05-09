@@ -1083,6 +1083,9 @@ ScalaJS.i.sc_GenMapLike$class__liftedTree1$1__sc_GenMapLike__sc_GenMap__Z = (fun
     }
   }
 });
+ScalaJS.i.sc_GenSeqLike$class__isDefinedAt__sc_GenSeqLike__I__Z = (function($$this, idx) {
+  return ((idx >= 0) && (idx < $$this.length__I()))
+});
 ScalaJS.i.sc_GenSeqLike$class__equals__sc_GenSeqLike__O__Z = (function($$this, that) {
   if (ScalaJS.is.sc_GenSeq(that)) {
     var x2 = ScalaJS.as.sc_GenSeq(that);
@@ -1090,9 +1093,6 @@ ScalaJS.i.sc_GenSeqLike$class__equals__sc_GenSeqLike__O__Z = (function($$this, t
   } else {
     return false
   }
-});
-ScalaJS.i.sc_GenSeqLike$class__isDefinedAt__sc_GenSeqLike__I__Z = (function($$this, idx) {
-  return ((idx >= 0) && (idx < $$this.length__I()))
 });
 ScalaJS.i.sc_GenSetLike$class__liftedTree1$1__sc_GenSetLike__sc_GenSet__Z = (function($$this, x2$1) {
   try {
@@ -2062,16 +2062,6 @@ ScalaJS.i.sci_VectorPointer$class__gotoNextBlockStart__sci_VectorPointer__I__I__
     throw new ScalaJS.c.jl_IllegalArgumentException().init___()
   }
 });
-ScalaJS.i.sci_VectorPointer$class__copyOf__sci_VectorPointer__AO__AO = (function($$this, a) {
-  if ((a === null)) {
-    var this$2 = ScalaJS.m.s_Console();
-    this$2.out__Ljava_io_PrintStream().println__O__V("NULL")
-  };
-  var b = ScalaJS.newArrayObject(ScalaJS.d.O.getArrayOf(), [a.u["length"]]);
-  var length = a.u["length"];
-  ScalaJS.systemArraycopy(a, 0, b, 0, length);
-  return b
-});
 ScalaJS.i.sci_VectorPointer$class__gotoPosWritable0__sci_VectorPointer__I__I__V = (function($$this, newIndex, xor) {
   var x1 = (($$this.depth__I() - 1) | 0);
   switch (x1) {
@@ -2159,6 +2149,16 @@ ScalaJS.i.sci_VectorPointer$class__gotoPosWritable0__sci_VectorPointer__I__I__V 
     default:
       throw new ScalaJS.c.s_MatchError().init___O(x1);
   }
+});
+ScalaJS.i.sci_VectorPointer$class__copyOf__sci_VectorPointer__AO__AO = (function($$this, a) {
+  if ((a === null)) {
+    var this$2 = ScalaJS.m.s_Console();
+    this$2.out__Ljava_io_PrintStream().println__O__V("NULL")
+  };
+  var b = ScalaJS.newArrayObject(ScalaJS.d.O.getArrayOf(), [a.u["length"]]);
+  var length = a.u["length"];
+  ScalaJS.systemArraycopy(a, 0, b, 0, length);
+  return b
 });
 ScalaJS.i.sci_VectorPointer$class__gotoNextBlockStartWritable__sci_VectorPointer__I__I__V = (function($$this, index, xor) {
   if ((xor < 1024)) {
@@ -2286,6 +2286,12 @@ ScalaJS.i.sci_VectorPointer$class__nullSlotAndCopy__sci_VectorPointer__AO__I__AO
   var a = ScalaJS.asArrayOf.O(x, 1);
   return ScalaJS.i.sci_VectorPointer$class__copyOf__sci_VectorPointer__AO__AO($$this, a)
 });
+ScalaJS.i.sci_VectorPointer$class__copyRange__sci_VectorPointer__AO__I__I__AO = (function($$this, array, oldLeft, newLeft) {
+  var elems = ScalaJS.newArrayObject(ScalaJS.d.O.getArrayOf(), [32]);
+  var length = ((32 - ((newLeft > oldLeft) ? newLeft : oldLeft)) | 0);
+  ScalaJS.systemArraycopy(array, oldLeft, elems, newLeft, length);
+  return elems
+});
 ScalaJS.i.sci_VectorPointer$class__gotoPosWritable1__sci_VectorPointer__I__I__I__V = (function($$this, oldIndex, newIndex, xor) {
   if ((xor < 32)) {
     var a = $$this.display0__AO();
@@ -2388,12 +2394,6 @@ ScalaJS.i.sci_VectorPointer$class__gotoPosWritable1__sci_VectorPointer__I__I__I_
   } else {
     throw new ScalaJS.c.jl_IllegalArgumentException().init___()
   }
-});
-ScalaJS.i.sci_VectorPointer$class__copyRange__sci_VectorPointer__AO__I__I__AO = (function($$this, array, oldLeft, newLeft) {
-  var elems = ScalaJS.newArrayObject(ScalaJS.d.O.getArrayOf(), [32]);
-  var length = ((32 - ((newLeft > oldLeft) ? newLeft : oldLeft)) | 0);
-  ScalaJS.systemArraycopy(array, oldLeft, elems, newLeft, length);
-  return elems
 });
 ScalaJS.i.sci_VectorPointer$class__debug__sci_VectorPointer__V = (function($$this) {
   return (void 0)
@@ -2821,11 +2821,11 @@ ScalaJS.i.sjsr_RuntimeString$class__indexOf__sjsr_RuntimeString__I__I__I = (func
   var search = ScalaJS.as.T(ScalaJS.applyMethodWithVarargs(ScalaJS.g["String"], "fromCharCode", ScalaJS.m.sjs_js_Any().fromTraversableOnce__sc_TraversableOnce__sjs_js_Array(ScalaJS.m.s_Predef().wrapIntArray__AI__scm_WrappedArray(ScalaJS.makeNativeArrayWrapper(ScalaJS.d.I.getArrayOf(), [ch])))));
   return (ScalaJS.uD($$this["indexOf"](search, fromIndex)) | 0)
 });
-ScalaJS.i.sjsr_RuntimeString$class__charAt__sjsr_RuntimeString__I__C = (function($$this, index) {
-  return (ScalaJS.uD($$this["charCodeAt"](index)) & 65535)
-});
 ScalaJS.i.sjsr_RuntimeString$class__split__sjsr_RuntimeString__T__AT = (function($$this, regex) {
   return ScalaJS.i.sjsr_RuntimeString$class__split__sjsr_RuntimeString__T__I__AT(ScalaJS.as.T($$this), regex, 0)
+});
+ScalaJS.i.sjsr_RuntimeString$class__charAt__sjsr_RuntimeString__I__C = (function($$this, index) {
+  return (ScalaJS.uD($$this["charCodeAt"](index)) & 65535)
 });
 ScalaJS.i.sjsr_RuntimeString$class__toUpperCase__sjsr_RuntimeString__T = (function($$this) {
   return ScalaJS.as.T($$this["toUpperCase"]())
@@ -7492,11 +7492,11 @@ ScalaJS.c.T2.prototype.equals__O__Z = (function(x$1) {
     return false
   }
 });
-ScalaJS.c.T2.prototype.productElement__I__O = (function(n) {
-  return ScalaJS.i.s_Product2$class__productElement__s_Product2__I__O(this, n)
-});
 ScalaJS.c.T2.prototype.$$und1$mcD$sp__D = (function() {
   return ScalaJS.uD(this.$$und1__O())
+});
+ScalaJS.c.T2.prototype.productElement__I__O = (function(n) {
+  return ScalaJS.i.s_Product2$class__productElement__s_Product2__I__O(this, n)
 });
 ScalaJS.c.T2.prototype.init___O__O = (function(_1, _2) {
   this.$$und1$f = _1;
@@ -8122,12 +8122,12 @@ ScalaJS.c.jl_Class.prototype.isAssignableFrom__jl_Class__Z = (function(that) {
 ScalaJS.c.jl_Class.prototype.isInstance__O__Z = (function(obj) {
   return ScalaJS.uZ(this.data$1["isInstance"](obj))
 });
+ScalaJS.c.jl_Class.prototype.getFakeInstance__p1__O = (function() {
+  return this.data$1["getFakeInstance"]()
+});
 ScalaJS.c.jl_Class.prototype.init___jl_ScalaJSClassData = (function(data) {
   this.data$1 = data;
   return this
-});
-ScalaJS.c.jl_Class.prototype.getFakeInstance__p1__O = (function() {
-  return this.data$1["getFakeInstance"]()
 });
 ScalaJS.c.jl_Class.prototype.newArrayOfThisClass__sjs_js_Array__O = (function(dimensions) {
   return this.data$1["newArrayOfThisClass"](dimensions)
@@ -8352,17 +8352,17 @@ ScalaJS.c.jl_Integer$.prototype.parseInt__T__I__I = (function(s, radix) {
 ScalaJS.c.jl_Integer$.prototype.rotateLeft__I__I__I = (function(i, distance) {
   return ((i << distance) | ((i >>> ((32 - distance) | 0)) | 0))
 });
-ScalaJS.c.jl_Integer$.prototype.bitCount__I__I = (function(i) {
-  var t1 = ((i - ((i >> 1) & 1431655765)) | 0);
-  var t2 = (((t1 & 858993459) + ((t1 >> 2) & 858993459)) | 0);
-  return (ScalaJS.imul((((t2 + (t2 >> 4)) | 0) & 252645135), 16843009) >> 24)
-});
 ScalaJS.c.jl_Integer$.prototype.reverseBytes__I__I = (function(i) {
   var byte3 = ((i >>> 24) | 0);
   var byte2 = (((i >>> 8) | 0) & 65280);
   var byte1 = ((i << 8) & 16711680);
   var byte0 = (i << 24);
   return (((byte0 | byte1) | byte2) | byte3)
+});
+ScalaJS.c.jl_Integer$.prototype.bitCount__I__I = (function(i) {
+  var t1 = ((i - ((i >> 1) & 1431655765)) | 0);
+  var t2 = (((t1 & 858993459) + ((t1 >> 2) & 858993459)) | 0);
+  return (ScalaJS.imul((((t2 + (t2 >> 4)) | 0) & 252645135), 16843009) >> 24)
 });
 ScalaJS.c.jl_Integer$.prototype.numberOfLeadingZeros__I__I = (function(i) {
   var x = i;
@@ -8606,12 +8606,12 @@ ScalaJS.h.jl_StringBuilder.prototype = ScalaJS.c.jl_StringBuilder.prototype;
 ScalaJS.c.jl_StringBuilder.prototype.init___ = (function() {
   return (ScalaJS.c.jl_StringBuilder.prototype.init___T.call(this, ""), this)
 });
+ScalaJS.c.jl_StringBuilder.prototype.subSequence__I__I__jl_CharSequence = (function(start, end) {
+  return this.substring__I__I__T(start, end)
+});
 ScalaJS.c.jl_StringBuilder.prototype.append__T__jl_StringBuilder = (function(s) {
   this.content$1 = (("" + this.content$1) + ((s === null) ? "null" : s));
   return this
-});
-ScalaJS.c.jl_StringBuilder.prototype.subSequence__I__I__jl_CharSequence = (function(start, end) {
-  return this.substring__I__I__T(start, end)
 });
 ScalaJS.c.jl_StringBuilder.prototype.toString__T = (function() {
   return this.content$1
@@ -8634,21 +8634,18 @@ ScalaJS.c.jl_StringBuilder.prototype.append__jl_CharSequence__I__I__jl_StringBui
 ScalaJS.c.jl_StringBuilder.prototype.length__I = (function() {
   return ScalaJS.i.sjsr_RuntimeString$class__length__sjsr_RuntimeString__I(this.content$1)
 });
-ScalaJS.c.jl_StringBuilder.prototype.append__C__jl_StringBuilder = (function(c) {
-  return this.append__T__jl_StringBuilder(ScalaJS.objectToString(ScalaJS.bC(c)))
-});
 ScalaJS.c.jl_StringBuilder.prototype.substring__I__I__T = (function(start, end) {
   return ScalaJS.i.sjsr_RuntimeString$class__substring__sjsr_RuntimeString__I__I__T(this.content$1, start, end)
 });
-ScalaJS.c.jl_StringBuilder.prototype.init___T = (function(content) {
-  this.content$1 = content;
-  return this
+ScalaJS.c.jl_StringBuilder.prototype.append__C__jl_StringBuilder = (function(c) {
+  return this.append__T__jl_StringBuilder(ScalaJS.objectToString(ScalaJS.bC(c)))
 });
 ScalaJS.c.jl_StringBuilder.prototype.append__C__jl_Appendable = (function(c) {
   return this.append__C__jl_StringBuilder(c)
 });
-ScalaJS.c.jl_StringBuilder.prototype.charAt__I__C = (function(index) {
-  return ScalaJS.i.sjsr_RuntimeString$class__charAt__sjsr_RuntimeString__I__C(this.content$1, index)
+ScalaJS.c.jl_StringBuilder.prototype.init___T = (function(content) {
+  this.content$1 = content;
+  return this
 });
 ScalaJS.c.jl_StringBuilder.prototype.reverse__jl_StringBuilder = (function() {
   var original = this.content$1;
@@ -8672,6 +8669,9 @@ ScalaJS.c.jl_StringBuilder.prototype.reverse__jl_StringBuilder = (function() {
   };
   this.content$1 = result;
   return this
+});
+ScalaJS.c.jl_StringBuilder.prototype.charAt__I__C = (function(index) {
+  return ScalaJS.i.sjsr_RuntimeString$class__charAt__sjsr_RuntimeString__I__C(this.content$1, index)
 });
 ScalaJS.is.jl_StringBuilder = (function(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.jl_StringBuilder)))
@@ -12284,11 +12284,11 @@ ScalaJS.c.sc_AbstractIterator.prototype.copyToArray__O__I__V = (function(xs, sta
 ScalaJS.c.sc_AbstractIterator.prototype.init___ = (function() {
   return this
 });
-ScalaJS.c.sc_AbstractIterator.prototype.isEmpty__Z = (function() {
-  return ScalaJS.i.sc_Iterator$class__isEmpty__sc_Iterator__Z(this)
-});
 ScalaJS.c.sc_AbstractIterator.prototype.toList__sci_List = (function() {
   return ScalaJS.i.sc_TraversableOnce$class__toList__sc_TraversableOnce__sci_List(this)
+});
+ScalaJS.c.sc_AbstractIterator.prototype.isEmpty__Z = (function() {
+  return ScalaJS.i.sc_Iterator$class__isEmpty__sc_Iterator__Z(this)
 });
 ScalaJS.c.sc_AbstractIterator.prototype.to__scg_CanBuildFrom__O = (function(cbf) {
   return ScalaJS.i.sc_TraversableOnce$class__to__sc_TraversableOnce__scg_CanBuildFrom__O(this, cbf)
@@ -12302,11 +12302,11 @@ ScalaJS.c.sc_AbstractIterator.prototype.foreach__F1__V = (function(f) {
 ScalaJS.c.sc_AbstractIterator.prototype.toVector__sci_Vector = (function() {
   return ScalaJS.i.sc_TraversableOnce$class__toVector__sc_TraversableOnce__sci_Vector(this)
 });
-ScalaJS.c.sc_AbstractIterator.prototype.size__I = (function() {
-  return ScalaJS.i.sc_TraversableOnce$class__size__sc_TraversableOnce__I(this)
-});
 ScalaJS.c.sc_AbstractIterator.prototype.toBuffer__scm_Buffer = (function() {
   return ScalaJS.i.sc_TraversableOnce$class__toBuffer__sc_TraversableOnce__scm_Buffer(this)
+});
+ScalaJS.c.sc_AbstractIterator.prototype.size__I = (function() {
+  return ScalaJS.i.sc_TraversableOnce$class__size__sc_TraversableOnce__I(this)
 });
 ScalaJS.c.sc_AbstractIterator.prototype.toStream__sci_Stream = (function() {
   return ScalaJS.i.sc_Iterator$class__toStream__sc_Iterator__sci_Stream(this)
@@ -12410,11 +12410,11 @@ ScalaJS.c.sc_AbstractTraversable.prototype.tail__O = (function() {
 ScalaJS.c.sc_AbstractTraversable.prototype.addString__scm_StringBuilder__T__T__T__scm_StringBuilder = (function(b, start, sep, end) {
   return ScalaJS.i.sc_TraversableOnce$class__addString__sc_TraversableOnce__scm_StringBuilder__T__T__T__scm_StringBuilder(this, b, start, sep, end)
 });
-ScalaJS.c.sc_AbstractTraversable.prototype.repr__O = (function() {
-  return this
-});
 ScalaJS.c.sc_AbstractTraversable.prototype.$$div$colon__O__F2__O = (function(z, op) {
   return this.foldLeft__O__F2__O(z, op)
+});
+ScalaJS.c.sc_AbstractTraversable.prototype.repr__O = (function() {
+  return this
 });
 ScalaJS.c.sc_AbstractTraversable.prototype.isTraversableAgain__Z = (function() {
   return true
@@ -12425,11 +12425,11 @@ ScalaJS.c.sc_AbstractTraversable.prototype.map__F1__scg_CanBuildFrom__O = (funct
 ScalaJS.c.sc_AbstractTraversable.prototype.toArray__s_reflect_ClassTag__O = (function(evidence$1) {
   return ScalaJS.i.sc_TraversableOnce$class__toArray__sc_TraversableOnce__s_reflect_ClassTag__O(this, evidence$1)
 });
-ScalaJS.c.sc_AbstractTraversable.prototype.collect__s_PartialFunction__scg_CanBuildFrom__O = (function(pf, bf) {
-  return ScalaJS.i.sc_TraversableLike$class__collect__sc_TraversableLike__s_PartialFunction__scg_CanBuildFrom__O(this, pf, bf)
-});
 ScalaJS.c.sc_AbstractTraversable.prototype.reduceLeft__F2__O = (function(op) {
   return ScalaJS.i.sc_TraversableOnce$class__reduceLeft__sc_TraversableOnce__F2__O(this, op)
+});
+ScalaJS.c.sc_AbstractTraversable.prototype.collect__s_PartialFunction__scg_CanBuildFrom__O = (function(pf, bf) {
+  return ScalaJS.i.sc_TraversableLike$class__collect__sc_TraversableLike__s_PartialFunction__scg_CanBuildFrom__O(this, pf, bf)
 });
 ScalaJS.c.sc_AbstractTraversable.prototype.newBuilder__scm_Builder = (function() {
   return this.companion__scg_GenericCompanion().newBuilder__scm_Builder()
@@ -18766,9 +18766,6 @@ ScalaJS.c.sr_ScalaRunTime$.prototype.array$undlength__O__I = (function(xs) {
     throw new ScalaJS.c.s_MatchError().init___O(xs)
   }
 });
-ScalaJS.c.sr_ScalaRunTime$.prototype.hash__O__I = (function(x) {
-  return ((x === null) ? 0 : (ScalaJS.is.jl_Number(x) ? ScalaJS.m.sr_BoxesRunTime().hashFromNumber__jl_Number__I(ScalaJS.as.jl_Number(x)) : ScalaJS.objectHashCode(x)))
-});
 ScalaJS.c.sr_ScalaRunTime$.prototype.array$undupdate__O__I__O__V = (function(xs, idx, value) {
   if (ScalaJS.isArrayOf.O(xs, 1)) {
     var x2 = ScalaJS.asArrayOf.O(xs, 1);
@@ -18805,6 +18802,9 @@ ScalaJS.c.sr_ScalaRunTime$.prototype.array$undupdate__O__I__O__V = (function(xs,
   } else {
     throw new ScalaJS.c.s_MatchError().init___O(xs)
   }
+});
+ScalaJS.c.sr_ScalaRunTime$.prototype.hash__O__I = (function(x) {
+  return ((x === null) ? 0 : (ScalaJS.is.jl_Number(x) ? ScalaJS.m.sr_BoxesRunTime().hashFromNumber__jl_Number__I(ScalaJS.as.jl_Number(x)) : ScalaJS.objectHashCode(x)))
 });
 ScalaJS.c.sr_ScalaRunTime$.prototype.arrayElementClass__O__jl_Class = (function(schematic) {
   if (ScalaJS.is.jl_Class(schematic)) {
@@ -20835,11 +20835,11 @@ ScalaJS.c.s_Predef$.prototype.require__Z__V = (function(requirement) {
     throw new ScalaJS.c.jl_IllegalArgumentException().init___T("requirement failed")
   }
 });
-ScalaJS.c.s_Predef$.prototype.Integer2int__jl_Integer__I = (function(x) {
-  return ScalaJS.numberIntValue(x)
-});
 ScalaJS.c.s_Predef$.prototype.Boolean2boolean__jl_Boolean__Z = (function(x) {
   return ScalaJS.booleanBooleanValue(x)
+});
+ScalaJS.c.s_Predef$.prototype.Integer2int__jl_Integer__I = (function(x) {
+  return ScalaJS.numberIntValue(x)
 });
 ScalaJS.c.s_Predef$.prototype.$$qmark$qmark$qmark__sr_Nothing$ = (function() {
   throw new ScalaJS.c.s_NotImplementedError().init___()
@@ -21891,11 +21891,11 @@ ScalaJS.c.sc_AbstractIterable.prototype.find__F1__s_Option = (function(p) {
 ScalaJS.c.sc_AbstractIterable.prototype.zipWithIndex__scg_CanBuildFrom__O = (function(bf) {
   return ScalaJS.i.sc_IterableLike$class__zipWithIndex__sc_IterableLike__scg_CanBuildFrom__O(this, bf)
 });
-ScalaJS.c.sc_AbstractIterable.prototype.drop__I__O = (function(n) {
-  return ScalaJS.i.sc_IterableLike$class__drop__sc_IterableLike__I__O(this, n)
-});
 ScalaJS.c.sc_AbstractIterable.prototype.toStream__sci_Stream = (function() {
   return this.iterator__sc_Iterator().toStream__sci_Stream()
+});
+ScalaJS.c.sc_AbstractIterable.prototype.drop__I__O = (function(n) {
+  return ScalaJS.i.sc_IterableLike$class__drop__sc_IterableLike__I__O(this, n)
 });
 ScalaJS.c.sc_AbstractIterable.prototype.copyToArray__O__I__I__V = (function(xs, start, len) {
   ScalaJS.i.sc_IterableLike$class__copyToArray__sc_IterableLike__O__I__I__V(this, xs, start, len)
@@ -21949,11 +21949,11 @@ ScalaJS.h.sc_IndexedSeq$$anon$1 = (function() {
   /*<skip>*/
 });
 ScalaJS.h.sc_IndexedSeq$$anon$1.prototype = ScalaJS.c.sc_IndexedSeq$$anon$1.prototype;
-ScalaJS.c.sc_IndexedSeq$$anon$1.prototype.init___ = (function() {
-  return (ScalaJS.c.scg_GenTraversableFactory$GenericCanBuildFrom.prototype.init___scg_GenTraversableFactory.call(this, ScalaJS.m.sc_IndexedSeq()), this)
-});
 ScalaJS.c.sc_IndexedSeq$$anon$1.prototype.apply__scm_Builder = (function() {
   return (ScalaJS.m.sc_IndexedSeq(), ScalaJS.m.sci_IndexedSeq(), ScalaJS.m.sci_Vector(), new ScalaJS.c.sci_VectorBuilder().init___())
+});
+ScalaJS.c.sc_IndexedSeq$$anon$1.prototype.init___ = (function() {
+  return (ScalaJS.c.scg_GenTraversableFactory$GenericCanBuildFrom.prototype.init___scg_GenTraversableFactory.call(this, ScalaJS.m.sc_IndexedSeq()), this)
 });
 ScalaJS.is.sc_IndexedSeq$$anon$1 = (function(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.sc_IndexedSeq$$anon$1)))
@@ -24632,15 +24632,15 @@ ScalaJS.c.sjsr_RuntimeLong.prototype.chunk13$1__p2__sjsr_RuntimeLong__T5 = (func
 ScalaJS.c.sjsr_RuntimeLong.prototype.powerOfTwo__p2__I = (function() {
   return (((((this.h$2 === 0) && (this.m$2 === 0)) && (this.l$2 !== 0)) && ((this.l$2 & ((this.l$2 - 1) | 0)) === 0)) ? ScalaJS.m.jl_Integer().numberOfTrailingZeros__I__I(this.l$2) : (((((this.h$2 === 0) && (this.m$2 !== 0)) && (this.l$2 === 0)) && ((this.m$2 & ((this.m$2 - 1) | 0)) === 0)) ? ((ScalaJS.m.jl_Integer().numberOfTrailingZeros__I__I(this.m$2) + 22) | 0) : (((((this.h$2 !== 0) && (this.m$2 === 0)) && (this.l$2 === 0)) && ((this.h$2 & ((this.h$2 - 1) | 0)) === 0)) ? ((ScalaJS.m.jl_Integer().numberOfTrailingZeros__I__I(this.h$2) + 44) | 0) : -1)))
 });
-ScalaJS.c.sjsr_RuntimeLong.prototype.$$greater$eq__sjsr_RuntimeLong__Z = (function(y) {
-  return (ScalaJS.anyRefEqEq(this, y) || this.$$greater__sjsr_RuntimeLong__Z(y))
-});
 ScalaJS.c.sjsr_RuntimeLong.prototype.$$bar__sjsr_RuntimeLong__sjsr_RuntimeLong = (function(y) {
   ScalaJS.m.sjsr_RuntimeLong();
   var l = (this.l$2 | y.l$2);
   var m = (this.m$2 | y.m$2);
   var h = (this.h$2 | y.h$2);
   return new ScalaJS.c.sjsr_RuntimeLong().init___I__I__I(l, m, h)
+});
+ScalaJS.c.sjsr_RuntimeLong.prototype.$$greater$eq__sjsr_RuntimeLong__Z = (function(y) {
+  return (ScalaJS.anyRefEqEq(this, y) || this.$$greater__sjsr_RuntimeLong__Z(y))
 });
 ScalaJS.c.sjsr_RuntimeLong.prototype.scala$scalajs$runtime$RuntimeLong$$isZero__Z = (function() {
   return (((this.l$2 === 0) && (this.m$2 === 0)) && (this.h$2 === 0))
@@ -24663,9 +24663,6 @@ ScalaJS.c.sjsr_RuntimeLong.prototype.toHexString__T = (function() {
 });
 ScalaJS.c.sjsr_RuntimeLong.prototype.$$less__sjsr_RuntimeLong__Z = (function(y) {
   return (!this.$$greater$eq__sjsr_RuntimeLong__Z(y))
-});
-ScalaJS.c.sjsr_RuntimeLong.prototype.sign__p2__I = (function() {
-  return (this.h$2 >> 19)
 });
 ScalaJS.c.sjsr_RuntimeLong.prototype.$$times__sjsr_RuntimeLong__sjsr_RuntimeLong = (function(y) {
   var x1 = this.chunk13$1__p2__sjsr_RuntimeLong__T5(this);
@@ -24755,6 +24752,9 @@ ScalaJS.c.sjsr_RuntimeLong.prototype.$$times__sjsr_RuntimeLong__sjsr_RuntimeLong
   var c2 = ((((c22 + c23) | 0) + c24) | 0);
   var c1n = ((c1 + (c0 >> 22)) | 0);
   return ScalaJS.m.sjsr_RuntimeLong().masked__I__I__I__sjsr_RuntimeLong(c0, c1n, ((c2 + (c1n >> 22)) | 0))
+});
+ScalaJS.c.sjsr_RuntimeLong.prototype.sign__p2__I = (function() {
+  return (this.h$2 >> 19)
 });
 ScalaJS.c.sjsr_RuntimeLong.prototype.init___I__I__I = (function(l, m, h) {
   this.l$2 = l;
@@ -27305,11 +27305,11 @@ ScalaJS.c.sci_List.prototype.find__F1__s_Option = (function(p) {
 ScalaJS.c.sci_List.prototype.seq__sc_Seq = (function() {
   return this
 });
-ScalaJS.c.sci_List.prototype.length__I = (function() {
-  return ScalaJS.i.sc_LinearSeqOptimized$class__length__sc_LinearSeqOptimized__I(this)
-});
 ScalaJS.c.sci_List.prototype.$$plus$plus__sc_GenTraversableOnce__scg_CanBuildFrom__O = (function(that, bf) {
   return ((bf === ScalaJS.m.sci_List().ReusableCBFInstance$2) ? that.seq__sc_TraversableOnce().toList__sci_List().$$colon$colon$colon__sci_List__sci_List(this) : ScalaJS.i.sc_TraversableLike$class__$plus$plus__sc_TraversableLike__sc_GenTraversableOnce__scg_CanBuildFrom__O(this, that, bf))
+});
+ScalaJS.c.sci_List.prototype.length__I = (function() {
+  return ScalaJS.i.sc_LinearSeqOptimized$class__length__sc_LinearSeqOptimized__I(this)
 });
 ScalaJS.c.sci_List.prototype.toStream__sci_Stream = (function() {
   return (this.isEmpty__Z() ? ScalaJS.m.sci_Stream$Empty() : new ScalaJS.c.sci_Stream$Cons().init___O__F0(this.head__O(), new ScalaJS.c.sjsr_AnonFunction0().init___sjs_js_Function0((function(this$2) {
@@ -27360,9 +27360,6 @@ ScalaJS.c.sci_List.prototype.map__F1__scg_CanBuildFrom__O = (function(f, bf) {
 ScalaJS.c.sci_List.prototype.takeRight__I__O = (function(n) {
   return this.takeRight__I__sci_List(n)
 });
-ScalaJS.c.sci_List.prototype.reduceLeft__F2__O = (function(f) {
-  return ScalaJS.i.sc_LinearSeqOptimized$class__reduceLeft__sc_LinearSeqOptimized__F2__O(this, f)
-});
 ScalaJS.c.sci_List.prototype.collect__s_PartialFunction__scg_CanBuildFrom__O = (function(pf, bf) {
   if ((bf === ScalaJS.m.sci_List().ReusableCBFInstance$2)) {
     if ((this === ScalaJS.m.sci_Nil())) {
@@ -27395,6 +27392,9 @@ ScalaJS.c.sci_List.prototype.collect__s_PartialFunction__scg_CanBuildFrom__O = (
   } else {
     return ScalaJS.i.sc_TraversableLike$class__collect__sc_TraversableLike__s_PartialFunction__scg_CanBuildFrom__O(this, pf, bf)
   }
+});
+ScalaJS.c.sci_List.prototype.reduceLeft__F2__O = (function(f) {
+  return ScalaJS.i.sc_LinearSeqOptimized$class__reduceLeft__sc_LinearSeqOptimized__F2__O(this, f)
 });
 ScalaJS.c.sci_List.prototype.reverse__sci_List = (function() {
   var result = ScalaJS.m.sci_Nil();
@@ -28907,11 +28907,6 @@ ScalaJS.c.sci_Vector.prototype.head__O = (function() {
   };
   return this.apply__I__O(0)
 });
-ScalaJS.c.sci_Vector.prototype.apply__I__O = (function(index) {
-  var idx = this.checkRangeConvert__p4__I__I(index);
-  var xor = (idx ^ this.focus$4);
-  return ScalaJS.i.sci_VectorPointer$class__getElem__sci_VectorPointer__I__I__O(this, idx, xor)
-});
 ScalaJS.c.sci_Vector.prototype.takeRight__I__sci_Vector = (function(n) {
   if ((n <= 0)) {
     var this$1 = ScalaJS.m.sci_Vector();
@@ -28919,6 +28914,11 @@ ScalaJS.c.sci_Vector.prototype.takeRight__I__sci_Vector = (function(n) {
   } else {
     return ((((this.endIndex$4 - n) | 0) > this.startIndex$4) ? this.dropFront0__p4__I__sci_Vector(((this.endIndex$4 - n) | 0)) : this)
   }
+});
+ScalaJS.c.sci_Vector.prototype.apply__I__O = (function(index) {
+  var idx = this.checkRangeConvert__p4__I__I(index);
+  var xor = (idx ^ this.focus$4);
+  return ScalaJS.i.sci_VectorPointer$class__getElem__sci_VectorPointer__I__I__O(this, idx, xor)
 });
 ScalaJS.c.sci_Vector.prototype.depth__I = (function() {
   return this.depth$4
@@ -32309,14 +32309,14 @@ ScalaJS.h.scm_StringBuilder.prototype = ScalaJS.c.scm_StringBuilder.prototype;
 ScalaJS.c.scm_StringBuilder.prototype.seq__sc_TraversableOnce = (function() {
   return this
 });
-ScalaJS.c.scm_StringBuilder.prototype.init___ = (function() {
-  return (ScalaJS.c.scm_StringBuilder.prototype.init___I__T.call(this, 16, ""), this)
+ScalaJS.c.scm_StringBuilder.prototype.$$plus$eq__C__scm_StringBuilder = (function(x) {
+  return (this.append__C__scm_StringBuilder(x), this)
 });
 ScalaJS.c.scm_StringBuilder.prototype.head__O = (function() {
   return ScalaJS.i.sc_IndexedSeqOptimized$class__head__sc_IndexedSeqOptimized__O(this)
 });
-ScalaJS.c.scm_StringBuilder.prototype.$$plus$eq__C__scm_StringBuilder = (function(x) {
-  return (this.append__C__scm_StringBuilder(x), this)
+ScalaJS.c.scm_StringBuilder.prototype.init___ = (function() {
+  return (ScalaJS.c.scm_StringBuilder.prototype.init___I__T.call(this, 16, ""), this)
 });
 ScalaJS.c.scm_StringBuilder.prototype.apply__I__O = (function(idx) {
   return ScalaJS.bC(this.underlying$5.charAt__I__C(idx))
@@ -32458,11 +32458,11 @@ ScalaJS.c.scm_StringBuilder.prototype.isDefinedAt__O__Z = (function(x) {
 ScalaJS.c.scm_StringBuilder.prototype.$$plus$eq__O__scm_Builder = (function(elem) {
   return this.$$plus$eq__C__scm_StringBuilder(ScalaJS.uC(elem))
 });
-ScalaJS.c.scm_StringBuilder.prototype.sizeHint__I__V = (function(size) {
-  /*<skip>*/
-});
 ScalaJS.c.scm_StringBuilder.prototype.copyToArray__O__I__I__V = (function(xs, start, len) {
   ScalaJS.i.sc_IndexedSeqOptimized$class__copyToArray__sc_IndexedSeqOptimized__O__I__I__V(this, xs, start, len)
+});
+ScalaJS.c.scm_StringBuilder.prototype.sizeHint__I__V = (function(size) {
+  /*<skip>*/
 });
 ScalaJS.c.scm_StringBuilder.prototype.hashCode__I = (function() {
   return ScalaJS.m.s_util_hashing_MurmurHash3().seqHash__sc_Seq__I(this)
@@ -32666,12 +32666,12 @@ ScalaJS.c.scm_WrappedArray.prototype.find__F1__s_Option = (function(p) {
 ScalaJS.c.scm_WrappedArray.prototype.seq__sc_Seq = (function() {
   return this
 });
-ScalaJS.c.scm_WrappedArray.prototype.last__O = (function() {
-  return ScalaJS.i.sc_IndexedSeqOptimized$class__last__sc_IndexedSeqOptimized__O(this)
-});
 ScalaJS.c.scm_WrappedArray.prototype.drop__I__O = (function(n) {
   var until = this.length__I();
   return ScalaJS.i.sc_IndexedSeqOptimized$class__slice__sc_IndexedSeqOptimized__I__I__O(this, n, until)
+});
+ScalaJS.c.scm_WrappedArray.prototype.last__O = (function() {
+  return ScalaJS.i.sc_IndexedSeqOptimized$class__last__sc_IndexedSeqOptimized__O(this)
 });
 ScalaJS.c.scm_WrappedArray.prototype.thisCollection__sc_Seq = (function() {
   return this
