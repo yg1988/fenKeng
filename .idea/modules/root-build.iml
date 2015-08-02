@@ -66,6 +66,7 @@
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.2/lib/scala-library.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.1.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.2/org.scala-sbt/sbt/0.13.0/testing-0.13.0.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.lihaoyi/scalarx_2.10/jars/scalarx_2.10-0.2.8.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.2/org.scala-sbt/sbt/0.13.0/scala-reflect-2.10.2.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.2/lib/jansi.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang.modules.scalajs/scalajs-tools_2.10/jars/scalajs-tools_2.10-0.5.3.jar!/" />

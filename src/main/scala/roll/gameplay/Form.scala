@@ -33,8 +33,13 @@ object Drawable{
 case class Form(body: cp.Body,
                 shapes: Seq[cp.Shape],
                 drawable: Drawable,
-                color: Color){
-  lazy val strokeStyle = color + Color(-64, -64, -64)
+                var color: Color){
+  def SetColor(color:Color)={
+    this.color=color
+    strokeStyle = color+ Color(-128, +124, -124)
+    fillStyle = color
+  }
+  var strokeStyle = color + Color(-64, -64, -64)
   var fillStyle = color + Color(64, 64, 64)
 }
 class JointForm(val joint: cp.PivotJoint,
@@ -278,11 +283,12 @@ object Form{
         val (body, shape) = Form.makeCircle(
           (x, y), r, density, static, friction, 0.8, layers
         )
+        println(misc)
+        println (misc.fill)
         Seq(new Form(
           body,
           shape,
           Drawable.Circle(r),
-
           Color(if (misc.fill != "") misc.fill else setRandomColor)
         ))
 

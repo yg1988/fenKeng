@@ -12,7 +12,7 @@
 </g>
 <g id="Special">
 	<circle id="Player" fill="" cx="73.378" cy="417.216" r="38.998"/>
-	<rect id="Goal" x="1251.135" y="644.5" fill="#00FFFF" width="200" height="200"/>
+	<rect id="Goal" x="1251.135" y="644.5" fill="#00FFFF" width="40" height="40"/>
 </g>
 <g id="Dynamic">
 	<circle fill="#8B7765" cx="898.639" cy="832.495" r="38.998"/>

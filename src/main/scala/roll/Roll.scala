@@ -14,6 +14,7 @@ import scalajs.concurrent.JSExecutionContext.Implicits.queue
 import roll.gameplay.Level.Input
 
 
+
 class GameHolder(canvas: dom.HTMLCanvasElement){
   class LevelData(val file: String,
                   var completed: Boolean,
@@ -34,6 +35,7 @@ class GameHolder(canvas: dom.HTMLCanvasElement){
   ).map(new LevelData(_, false, Seq()))
 
   var selectedIndex = 0
+  var playerArrayIndex=0
   def next() = {
     selectedIndex = (selectedIndex + 1) % levels.length
     game.recalc()
@@ -42,34 +44,40 @@ class GameHolder(canvas: dom.HTMLCanvasElement){
     selectedIndex = (selectedIndex - 1 + levels.length) % levels.length
     game.recalc()
   }
+
   def level = levels(selectedIndex)
   //made the program starts with default map in the begining
-  var running = true//false
+  var running = false
   var storedInputs: List[Level.Input] = Nil
   val game = Calc {
     new gameplay.Level(level.file, new cp.Vect(canvas.width, canvas.height))
   }
 
 
-  def draw(ctx: dom.CanvasRenderingContext2D, viewPort: cp.Vect) = {
-    ctx.fillStyle = "rgba(0, 0, 0, 0.25)"
-    ctx.fillRect(0, 0, viewPort.x, viewPort.y)
-    val rowHeight = viewPort.y * 0.8 / levels.length
-    for((level, i) <- levels.zipWithIndex){
-      ctx.fillStyle =
-        if (i == selectedIndex) "yellow"
-        else if(level.completed) "SpringGreen"
-        else "white"
-
-      ctx.font = rowHeight.toInt + "px Lucida Grande"
-      ctx.textBaseline = "top"
-      ctx.fillText(
-        level.file.drop("levels/".length).dropRight(".svg".length) + (if(level.completed) "✓" else ""),
-        viewPort.x / 10,
-        viewPort.y * 0.1 + i * rowHeight
-      )
-    }
-  }
+//  def draw(ctx: dom.CanvasRenderingContext2D, viewPort: cp.Vect) = {
+//    ctx.fillStyle = "rgba(0, 0, 0, 0.25)"
+//    ctx.fillRect(0, 0, viewPort.x, viewPort.y)
+//    val rowHeight = viewPort.y * 0.8 / levels.length
+//    ctx.fillStyle ="brown"
+//    ctx.fillText(
+//      "玩家个数:",
+//      viewPort.x / 10,
+//      viewPort.y * 0.1 + -1 * rowHeight
+//    )
+//    for((numberOfPlayer, i) <- numberOfPlayerOptions.zipWithIndex){
+//      ctx.fillStyle =
+//        if (i == selectedIndex) "yellow"
+//        else "white"
+//
+//      ctx.font = rowHeight.toInt + "px Lucida Grande"
+//      ctx.textBaseline = "top"
+//      ctx.fillText(
+//        numberOfPlayer.toString(),
+//        viewPort.x / 10,
+//        viewPort.y * 0.1 + i * rowHeight
+//      )
+//    }
+//  }
 
 
   def update(in: Input) = {
@@ -84,21 +92,25 @@ class GameHolder(canvas: dom.HTMLCanvasElement){
         case _ =>
       }
       storedInputs = in :: storedInputs
-    } else {
-      if (level.inputs == Nil) {
-        game().update(Level.Input(Set(), Set(), Seq(), in.screenSize, in.painter))
-      } else {
-        dom.console.log(level.inputs.length)
-        game().update(level.inputs.head.copy(painter = in.painter))
-        level.inputs = level.inputs.tail
-      }
-      //draw(in.painter, in.screenSize)
-      if (in.keyPresses(KeyCode.enter)){
-        running = true
-      }
-      if (in.keyPresses(KeyCode.down)) next()
-      if (in.keyPresses(KeyCode.up)) prev()
     }
+    else{
+      running=true;
+    }
+//    else {
+//      if (level.inputs == Nil) {
+//        game().update(Level.Input(Set(), Set(), Seq(), in.screenSize, in.painter))
+//      } else {
+//        dom.console.log(level.inputs.length)
+//        game().update(level.inputs.head.copy(painter = in.painter))
+//        level.inputs = level.inputs.tail
+//      }
+//      draw(in.painter, in.screenSize)
+//      if (in.keyPresses(KeyCode.enter)||in.touches.last.isInstanceOf[Touch.Up]){
+//        running = true
+//      }
+//      if (in.keyPresses(KeyCode.down)||in.touches.last.isInstanceOf[Touch.Move]) numberPlayerNext()
+//      if (in.keyPresses(KeyCode.up)) numberPlayerPrev()
+//    }
   }
 
 }
@@ -145,8 +157,8 @@ object Roll extends scalajs.js.JSApp{
     val painter = canvas.getContext("2d").asInstanceOf[dom.CanvasRenderingContext2D]
     dom.setInterval(
       () => {
-        if (canvas.width != dom.innerWidth) canvas.width = dom.innerWidth
-        if (canvas.height != dom.innerHeight) canvas.height = dom.innerHeight
+        if (canvas.width != dom.innerWidth) canvas.width = dom.innerWidth+40
+        if (canvas.height != dom.innerHeight) canvas.height = dom.innerHeight+40
         gameHolder.update(Level.Input(
           keys.toList.toSet,
           keyPresses.toList.toSet,

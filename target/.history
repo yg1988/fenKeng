@@ -20,3 +20,24 @@ fastOptJS
 fastOptJs
 c
 ~fastOptJS
+[INFO] [07/27/2015 20:02:34.340] [SystemLol-akka.actor.default-dispatcher-2] [akka://SystemLol/deadLetters] Message [akka.io.Tcp$Bound] from Actor[akka://SystemLol/user/IO-HTTP/listener-0#-205890280] to Actor[akka://SystemLol/deadLetters] was not delivered. [1] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+fastOptJS
+fastOptJS 
+quit
+exit
+fastOptJS 
+exit
+fastOptJS 
+exit
+fastOptJS 
+exit
+fastOptJS 
+exit
+fastOptJS 
+exit
+fastOptJS 
+clear
+clc
+fastOptJS 
+exit
+fastOptJS 

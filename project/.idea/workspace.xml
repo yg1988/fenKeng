@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5245af81-e64a-406a-b750-8fc0080a99d1" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/Roll$$anonfun$main$2$$anonfun$3$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/Roll$$anonfun$main$2$$anonfun$3$$anonfun$apply$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/Roll$$anonfun$main$2$$anonfun$3$$anonfun$apply$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/Roll$$anonfun$main$2$$anonfun$3$$anonfun$apply$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/Roll$$anonfun$main$2$$anonfun$3$$anonfun$apply$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/Roll$$anonfun$main$2$$anonfun$3$$anonfun$apply$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/Roll$$anonfun$main$2$$anonfun$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/Roll$$anonfun$main$2$$anonfun$3.sjsir" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$14$$anonfun$15.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$16$$anonfun$apply$1$$anonfun$17.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$16$$anonfun$apply$1$$anonfun$18.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$16$$anonfun$apply$1$$anonfun$19.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$16$$anonfun$apply$1$$anonfun$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$16$$anonfun$apply$1$$anonfun$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$16$$anonfun$apply$1$$anonfun$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$16$$anonfun$apply$1$$anonfun$apply$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$16$$anonfun$apply$1$$anonfun$apply$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$16$$anonfun$apply$1$$anonfun$apply$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$16$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$16$$anonfun$apply$1.sjsir" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$16.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$16.sjsir" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$20.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$draw$1$$anonfun$apply$5.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/Arbiter.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/Arbiter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/Arbiter.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/Arbiter.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/Body.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/Body.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/Body.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/Body.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/BoxShape$.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/BoxShape$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/BoxShape$.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/BoxShape$.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Camera$class.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Camera$class.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Camera.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Camera.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/CircleShape.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/CircleShape.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/CircleShape.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/CircleShape.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/CollisionHandler.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/CollisionHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/CollisionHandler.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/CollisionHandler.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/Constraint.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/Constraint.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/Constraint.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/Constraint.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/DampedRotarySpring.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/DampedRotarySpring.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/DampedRotarySpring.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/DampedRotarySpring.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/DampedSpring.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/DampedSpring.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/DampedSpring.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/DampedSpring.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Form$$anonfun$processElement$1.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Form$$anonfun$processElement$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Form$.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Form$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Form$.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Form$.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/GameHolder$$anonfun$1.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/GameHolder$$anonfun$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/GameHolder$$anonfun$2.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/GameHolder$$anonfun$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/GameHolder$$anonfun$draw$1.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/GameHolder$$anonfun$draw$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/GameHolder$$anonfun$draw$2.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/GameHolder$$anonfun$draw$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/GameHolder.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/GameHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/GameHolder.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/GameHolder.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/GearJoint.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/GearJoint.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/GearJoint.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/GearJoint.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/modules/Goal.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/modules/Goal.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/modules/Goal.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/modules/Goal.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/GrooveJoint.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/GrooveJoint.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/GrooveJoint.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/GrooveJoint.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$1.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$10.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$11.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$12.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$13.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$13.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$14.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$14.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$14.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$2.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$21.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$21.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$22.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$22.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$6.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$6.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$6.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$7.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$8.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$9.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$draw$1$$anonfun$apply$6.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$draw$1$$anonfun$apply$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$draw$1$$anonfun$apply$7.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$draw$1$$anonfun$apply$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$draw$1$$anonfun$apply$8.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$draw$1$$anonfun$apply$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$draw$1$$anonfun$apply$9.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$draw$1$$anonfun$apply$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$draw$1.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$draw$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$draw$1.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$draw$1.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$update$1.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$$anonfun$update$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$Input$.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$Input$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$Input$.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$Input$.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$Input.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$Input.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$Input.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$Input.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$Result$.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$Result$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$Result$.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$Result$.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$Result$Exit$.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$Result$Exit$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$Result$Exit$.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$Result$Exit$.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$Result$Next$.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$Result$Next$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$Result$Next$.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$Result$Next$.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$Result$Reset$.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$Result$Reset$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$Result$Reset$.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$Result$Reset$.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$Result.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level$Result.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/Level.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/NearestPointQueryInfo.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/NearestPointQueryInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/NearestPointQueryInfo.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/NearestPointQueryInfo.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/PinJoint.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/PinJoint.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/PinJoint.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/PinJoint.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/PivotJoint.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/PivotJoint.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/PivotJoint.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/PivotJoint.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/modules/Player$$anonfun$update$1.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/modules/Player$$anonfun$update$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/modules/Player$$anonfun$update$2.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/modules/Player$$anonfun$update$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/modules/Player$$anonfun$update$3.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/modules/Player$$anonfun$update$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/modules/Player$$anonfun$update$4.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/modules/Player$$anonfun$update$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/modules/Player.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/modules/Player.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/modules/Player.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/gameplay/modules/Player.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/PointQueryExtendedInfo.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/PointQueryExtendedInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/PointQueryExtendedInfo.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/PointQueryExtendedInfo.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/PolyShape.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/PolyShape.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/PolyShape.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/PolyShape.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/RatchetJoint.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/RatchetJoint.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/RatchetJoint.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/RatchetJoint.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/Roll$$anonfun$main$1$$anonfun$apply$mcV$sp$1.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/Roll$$anonfun$main$1$$anonfun$apply$mcV$sp$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/Roll$$anonfun$main$1$$anonfun$apply$mcV$sp$2.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/Roll$$anonfun$main$1$$anonfun$apply$mcV$sp$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/Roll$$anonfun$main$1.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/Roll$$anonfun$main$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/Roll$$anonfun$main$1.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/Roll$$anonfun$main$1.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/Roll$$anonfun$main$2.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/Roll$$anonfun$main$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/Roll$$anonfun$main$2.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/Roll$$anonfun$main$2.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/Roll$.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/Roll$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/Roll$.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/Roll$.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/RotaryLimitJoint.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/RotaryLimitJoint.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/RotaryLimitJoint.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/RotaryLimitJoint.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/SegmentQueryInfo.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/SegmentQueryInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/SegmentQueryInfo.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/SegmentQueryInfo.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/SegmentShape.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/SegmentShape.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/SegmentShape.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/SegmentShape.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/Shape.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/Shape.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/SimpleMotor.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/SimpleMotor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/SimpleMotor.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/SimpleMotor.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/SlideJoint.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/SlideJoint.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/SlideJoint.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/SlideJoint.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/Space.class" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/Space.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/Space.sjsir" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/roll/cp/Space.sjsir" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/streams/compile/copyResources/$global/copy-resources" afterPath="$PROJECT_DIR$/../target/streams/compile/copyResources/$global/copy-resources" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/cache/root/global/bundled/levels/Demo.svg/in-cache" afterPath="$PROJECT_DIR$/../target/scala-2.11/cache/root/global/bundled/levels/Demo.svg/in-cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/cache/root/global/bundled/levels/Steps.svg/in-cache" afterPath="$PROJECT_DIR$/../target/scala-2.11/cache/root/global/bundled/levels/Steps.svg/in-cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/cache/root/global/totalBundle/in-cache" afterPath="$PROJECT_DIR$/../target/scala-2.11/cache/root/global/totalBundle/in-cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/streams/$global/updatedJS/$global/bundled.js/in-cache" afterPath="$PROJECT_DIR$/../target/streams/$global/updatedJS/$global/bundled.js/in-cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/streams/$global/updatedJS/$global/games-fastopt.js/in-cache" afterPath="$PROJECT_DIR$/../target/streams/$global/updatedJS/$global/games-fastopt.js/in-cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/streams/compile/incCompileSetup/$global/inc_compile" afterPath="$PROJECT_DIR$/../target/streams/compile/incCompileSetup/$global/inc_compile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/streams/$global/update/$global/inputs" afterPath="$PROJECT_DIR$/../target/streams/$global/update/$global/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/streams/$global/updatedJS/$global/bundled.js/out-cache" afterPath="$PROJECT_DIR$/../target/streams/$global/updatedJS/$global/bundled.js/out-cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/streams/$global/updatedJS/$global/games-fastopt.js/out-cache" afterPath="$PROJECT_DIR$/../target/streams/$global/updatedJS/$global/games-fastopt.js/out-cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/streams/$global/update/$global/output" afterPath="$PROJECT_DIR$/../target/streams/$global/update/$global/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/.history" afterPath="$PROJECT_DIR$/../target/.history" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/scala/roll/gameplay/Camera.scala" afterPath="$PROJECT_DIR$/../src/main/scala/roll/gameplay/Camera.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/bundled/levels/Demo.svg" afterPath="$PROJECT_DIR$/../src/main/bundled/levels/Demo.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/scala/roll/cp/Facades.scala" afterPath="$PROJECT_DIR$/../src/main/scala/roll/cp/Facades.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/scala/roll/gameplay/Form.scala" afterPath="$PROJECT_DIR$/../src/main/scala/roll/gameplay/Form.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/scala/roll/gameplay/modules/Goal.scala" afterPath="$PROJECT_DIR$/../src/main/scala/roll/gameplay/modules/Goal.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/scala/roll/gameplay/Level.scala" afterPath="$PROJECT_DIR$/../src/main/scala/roll/gameplay/Level.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/scala/roll/gameplay/modules/Player.scala" afterPath="$PROJECT_DIR$/../src/main/scala/roll/gameplay/modules/Player.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/scala/roll/Roll.scala" afterPath="$PROJECT_DIR$/../src/main/scala/roll/Roll.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/bundled/levels/Steps.svg" afterPath="$PROJECT_DIR$/../src/main/bundled/levels/Steps.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/cache/root/global/bundled/levels/Demo.svg/base64data" afterPath="$PROJECT_DIR$/../target/scala-2.11/cache/root/global/bundled/levels/Demo.svg/base64data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/cache/root/global/bundled/levels/Steps.svg/base64data" afterPath="$PROJECT_DIR$/../target/scala-2.11/cache/root/global/bundled/levels/Steps.svg/base64data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/bundled.js" afterPath="$PROJECT_DIR$/../target/scala-2.11/bundled.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/bundled.js" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/bundled.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/resources/cp.js" afterPath="$PROJECT_DIR$/../src/main/resources/cp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/cp.js" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/cp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-fenkeng-build-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-fenkeng-build-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-fenkeng-build-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-fenkeng-build-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-fenkeng-build-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-fenkeng-build-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-fenkeng-build-optional.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-fenkeng-build-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-fenkeng-build-plugin.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-fenkeng-build-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-fenkeng-build-pom.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-fenkeng-build-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-fenkeng-build-provided.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-fenkeng-build-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-fenkeng-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-fenkeng-build-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-fenkeng-build-runtime.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-fenkeng-build-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-fenkeng-build-scala-tool.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-fenkeng-build-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-fenkeng-build-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-fenkeng-build-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-fenkeng-build-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-fenkeng-build-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-fenkeng-build-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-fenkeng-build-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/streams/compile/compile/$global/export" afterPath="$PROJECT_DIR$/../target/streams/compile/compile/$global/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/streams/compile/dependencyClasspath/$global/export" afterPath="$PROJECT_DIR$/../target/streams/compile/dependencyClasspath/$global/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/streams/compile/externalDependencyClasspath/$global/export" afterPath="$PROJECT_DIR$/../target/streams/compile/externalDependencyClasspath/$global/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/streams/compile/internalDependencyClasspath/$global/export" afterPath="$PROJECT_DIR$/../target/streams/compile/internalDependencyClasspath/$global/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/streams/compile/managedClasspath/$global/export" afterPath="$PROJECT_DIR$/../target/streams/compile/managedClasspath/$global/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/streams/compile/unmanagedClasspath/$global/export" afterPath="$PROJECT_DIR$/../target/streams/compile/unmanagedClasspath/$global/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/streams/compile/unmanagedJars/$global/export" afterPath="$PROJECT_DIR$/../target/streams/compile/unmanagedJars/$global/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/streams/compile/fastOptJS/$global/fastopt-js" afterPath="$PROJECT_DIR$/../target/streams/compile/fastOptJS/$global/fastopt-js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/games-fastopt.js.map" afterPath="$PROJECT_DIR$/../target/scala-2.11/games-fastopt.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/games-fastopt.js" afterPath="$PROJECT_DIR$/../target/scala-2.11/games-fastopt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/resolution-cache/reports/games-games_sjs0.5_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/../target/resolution-cache/reports/games-games_sjs0.5_2.11-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/resolution-cache/reports/games-games_sjs0.5_2.11-compile.xml" afterPath="$PROJECT_DIR$/../target/resolution-cache/reports/games-games_sjs0.5_2.11-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/resolution-cache/reports/games-games_sjs0.5_2.11-docs.xml" afterPath="$PROJECT_DIR$/../target/resolution-cache/reports/games-games_sjs0.5_2.11-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/resolution-cache/reports/games-games_sjs0.5_2.11-optional.xml" afterPath="$PROJECT_DIR$/../target/resolution-cache/reports/games-games_sjs0.5_2.11-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/resolution-cache/reports/games-games_sjs0.5_2.11-plugin.xml" afterPath="$PROJECT_DIR$/../target/resolution-cache/reports/games-games_sjs0.5_2.11-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/resolution-cache/reports/games-games_sjs0.5_2.11-pom.xml" afterPath="$PROJECT_DIR$/../target/resolution-cache/reports/games-games_sjs0.5_2.11-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/resolution-cache/reports/games-games_sjs0.5_2.11-provided.xml" afterPath="$PROJECT_DIR$/../target/resolution-cache/reports/games-games_sjs0.5_2.11-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/resolution-cache/reports/games-games_sjs0.5_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/../target/resolution-cache/reports/games-games_sjs0.5_2.11-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/resolution-cache/reports/games-games_sjs0.5_2.11-runtime.xml" afterPath="$PROJECT_DIR$/../target/resolution-cache/reports/games-games_sjs0.5_2.11-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/resolution-cache/reports/games-games_sjs0.5_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/../target/resolution-cache/reports/games-games_sjs0.5_2.11-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/resolution-cache/reports/games-games_sjs0.5_2.11-sources.xml" afterPath="$PROJECT_DIR$/../target/resolution-cache/reports/games-games_sjs0.5_2.11-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/resolution-cache/reports/games-games_sjs0.5_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/../target/resolution-cache/reports/games-games_sjs0.5_2.11-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/resolution-cache/reports/games-games_sjs0.5_2.11-test.xml" afterPath="$PROJECT_DIR$/../target/resolution-cache/reports/games-games_sjs0.5_2.11-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/resources/index.html" afterPath="$PROJECT_DIR$/../src/main/resources/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/scala-2.11/classes/index.html" afterPath="$PROJECT_DIR$/../target/scala-2.11/classes/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/out" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/streams/$global/ivyConfiguration/$global/out" afterPath="$PROJECT_DIR$/../target/streams/$global/ivyConfiguration/$global/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/streams/$global/update/$global/out" afterPath="$PROJECT_DIR$/../target/streams/$global/update/$global/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/streams/$global/updateBrowsers/$global/out" afterPath="$PROJECT_DIR$/../target/streams/$global/updateBrowsers/$global/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/streams/compile/compile/$global/out" afterPath="$PROJECT_DIR$/../target/streams/compile/compile/$global/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/streams/compile/fastOptJS/$global/out" afterPath="$PROJECT_DIR$/../target/streams/compile/fastOptJS/$global/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/default/fenkeng-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/default/fenkeng-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/resolution-cache/games/games_sjs0.5_2.11/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/../target/resolution-cache/games/games_sjs0.5_2.11/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/default/fenkeng-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/default/fenkeng-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/resolution-cache/games/games_sjs0.5_2.11/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/../target/resolution-cache/games/games_sjs0.5_2.11/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
+    </list>
+    <ignored path="project.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="project" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="722" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.lastSelected" value="configurable.group.appearance" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <list size="0" />
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5245af81-e64a-406a-b750-8fc0080a99d1" name="Default" comment="" />
+      <created>1438445961919</created>
+      <option name="number" value="Default" />
+      <updated>1438445961919</updated>
+      <workItem from="1438445964339" duration="6000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="722" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>

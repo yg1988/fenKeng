@@ -6,7 +6,7 @@ import roll.cp.Implicits._
 
 import roll.cp
 
-trait Camera{
+trait   Camera{
   def initialDims: cp.Vect
   def update(keys: Set[Int], screenSize: cp.Vect)
   def widest: cp.Vect

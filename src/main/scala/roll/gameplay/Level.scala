@@ -4,13 +4,16 @@ import acyclic.file
 import async.Async._
 import scala.collection.mutable
 import scala.scalajs.js
-
-import roll.cp.Implicits._
+import scala.scalajs.js._
+import scala.scalajs.js.Any._
+import cp.Implicits._
 import org.scalajs.dom.extensions._
+import org.scalajs.dom
 import roll.cp
 import org.scalajs.dom
 import scala.concurrent.{ExecutionContext, Promise, Future}
 import roll.gameplay.modules._
+
 
 
 object Level {
@@ -32,12 +35,18 @@ object Level {
 
 class Level(src: String, initialDims: cp.Vect) extends Level.Result{
 
+
+  dom.localStorage.setItem("tigerPlayers","[{\"id\":0,\"isHuman\":true,\"intelligenceLevel\":\"1\",\"name\":\"P0\",\"color\":\"black\",\"state\":\"\"},{\"id\":1,\"isHuman\":false,\"intelligenceLevel\":\"1\",\"name\":\"P1\",\"color\":\"blue\",\"state\":\"\"}]");
+  val playerInfos = JSON.parse(dom.localStorage.getItem("tigerPlayers").asInstanceOf[String]).asInstanceOf[Array[Dynamic]];
+  dom.console.log(playerInfos);
+//  playerInfos.forEach(new Function1[Dynamic, Unit] {
+//    def apply(x: Dynamic): Unit = dom.console.log(x)
+//  });
   implicit val space = new cp.Space()
   space.damping = 0.75
   space.gravity = (0, 0)
 
   var players=mutable.Buffer.empty[Player];
-  val numberOfPlayer=3
   var playerFocusIndex=0
 
   val svgDoc = new dom.DOMParser().parseFromString(
@@ -83,12 +92,18 @@ class Level(src: String, initialDims: cp.Vect) extends Level.Result{
       .flatMap(Form.processJoint)
 
   println("player")
+  val playerInfoSelected:Dynamic= playerInfos(players.size)
+  //dom.console.log("Info !!!!!!");
+  //dom.console.log(playerInfoSelected);
   players=players:+new Player(
     Form.processElement(
       xmlTree("Special")("Player"),
       static = false
     ).head,
-    widest = widest
+    widest = widest,
+    players.size,
+    playerInfoSelected.name.asInstanceOf[String],
+    playerInfoSelected.color.asInstanceOf[String]
   )
 
 
@@ -96,7 +111,17 @@ class Level(src: String, initialDims: cp.Vect) extends Level.Result{
   val goal = new Goal(
     Form.processElement(xmlTree("Special")("Goal"), static = true).head
   )
-  space.addCollisionHandler(1, 2, null, (arb: cp.Arbiter, space: cp.Space) => goal.hit(), null)
+  space.addCollisionHandler(1, 2, null, (arb: cp.Arbiter, space: cp.Space) =>{
+    if(arb.getB().getCollisionType()==1)arb.getB().setCollisionType(3)
+    if(arb.getA().getCollisionType()==1)arb.getA().setCollisionType(3)
+    goal.hit()
+  } , null)
+  space.addCollisionHandler(1, 3, null, (arb: cp.Arbiter, space: cp.Space) =>{
+
+    if(arb.getB().getCollisionType()==1)arb.getB().setCollisionType(0)
+    if(arb.getA().getCollisionType()==1)arb.getA().setCollisionType(0)
+    if(players.forall(p=>p.dead||p.isTiger)) goal.won=true;
+  } , null)
 
   //val strokes = new Strokes(space)
 
@@ -141,7 +166,6 @@ class Level(src: String, initialDims: cp.Vect) extends Level.Result{
       middle = (start + end) / 2
       res = shape.pointQuery(middle)
       if res.isDefined
-
     } yield {
       val d = end - start
       d / d.length
@@ -178,7 +202,7 @@ class Level(src: String, initialDims: cp.Vect) extends Level.Result{
       if (goal.won) goal.p
       else players(playerFocusIndex%players.size).form.body.getPos() + players(playerFocusIndex%players.size).form.body.getVel(),
       widest,
-      1
+      0.7
     )
   )
 
@@ -196,14 +220,15 @@ class Level(src: String, initialDims: cp.Vect) extends Level.Result{
       for(form <- staticShapes ++ dynamicShapes if form != null){
         Util.draw(ctx, form)
       }
-
+      val activePlayerIndex=playerFocusIndex%players.size
       //lasers.draw(ctx)
       goal.draw(ctx)
       for((player,n)<-players.zipWithIndex){
-        if(n!=playerFocusIndex%players.size)
+        if(n!=activePlayerIndex)
           player.draw(ctx)
       }
-      players(playerFocusIndex%players.size) draw ctx
+      if(players(activePlayerIndex).dead)playerFocusIndex = playerFocusIndex + 1
+      players(activePlayerIndex) draw(ctx, true)
       antigravity.draw(ctx)
 
 
@@ -239,18 +264,28 @@ class Level(src: String, initialDims: cp.Vect) extends Level.Result{
         case Touch.Move(x) => Touch.Move(screenToWorld(x))
         case Touch.Up(x) => Touch.Up(screenToWorld(x))
       })
+
       if( input.touches.size>0 ) {
         input.touches.last match {
           case Touch.Up(x) => {
-            if(playerFocusIndex<numberOfPlayer)
-            players=players :+ new Player(
+            if (playerFocusIndex < playerInfos.size - 1) {
+             val playerInfoSelected:Dynamic= playerInfos(players.size)
+            players = players :+ new Player(
               Form.processElement(
                 xmlTree("Special")("Player"),
                 static = false
               ).head,
-              widest = widest
+              widest = widest,
+              players.size,
+              playerInfoSelected.name.asInstanceOf[String],
+              playerInfoSelected.color.asInstanceOf[String]
             )
-            playerFocusIndex = playerFocusIndex + 1
+          }
+            dom.console.log(players(playerFocusIndex%players.size).asInstanceOf[Any]);
+
+            playerFocusIndex = playerFocusIndex + 1;
+//            while(playerFocusIndex>=numberOfPlayer&& players(playerFocusIndex%players.size).dead)
+//              playerFocusIndex = playerFocusIndex + 1
           }
           case _=>{}
         }

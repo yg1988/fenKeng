@@ -11,7 +11,7 @@ class Goal(var goal: Form){
   var countDown = 1.0
   def started = countDown == 0
   var won = false
-  var text = "Goal"
+  var text = "虎"
   goal.shapes.foreach{s =>
     s.setElasticity(0)
     s.setFriction(0)
@@ -32,7 +32,7 @@ class Goal(var goal: Form){
       Color.Yellow
     )
     text = "Success!"
-    won = true
+
   }
   def update() = {
     if (won){

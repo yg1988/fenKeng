@@ -4,7 +4,7 @@
 		module="fenkeng-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20150509125456"
+		publication="20150801183258"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
@@ -39,5 +39,6 @@
 		<dependency org="org.scala-lang.modules.scalajs" name="scalajs-sbt-plugin" rev="0.5.3" conf="compile->default(compile)" e:sbtVersion="0.13" e:scalaVersion="2.10"/>
 		<dependency org="com.lihaoyi" name="workbench" rev="0.1.5" conf="compile->default(compile)" e:sbtVersion="0.13" e:scalaVersion="2.10"/>
 		<dependency org="commons-codec" name="commons-codec" rev="1.9" conf="compile->default(compile)"/>
+		<dependency org="com.lihaoyi" name="scalarx_2.10" rev="0.2.8" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

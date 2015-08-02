@@ -16,6 +16,8 @@ class Shape(body: Body) extends js.Object{
   def setLayers(layers: Double): Unit = ???
   def setSensor(sensor: js.Any): Unit = ???
   def setCollisionType(collisionType: js.Any): Unit = ???
+  def getCollisionType(): js.Any = ???
+
   def getBody(): Body = ???
   def active(): js.Boolean = ???
   def setBody(b: Body) = ???

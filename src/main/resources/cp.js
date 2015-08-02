@@ -846,6 +846,7 @@ cp.resetShapeIdCounter = function()
 var Shape = cp.Shape = function(body) {
 	/// The rigid body this collision shape is attached to.
 	this.body = body;
+    this.body.addShape(this);
 
 	/// The current bounding box of the shape.
 	this.bb_l = this.bb_b = this.bb_r = this.bb_t = 0;
@@ -883,6 +884,7 @@ Shape.prototype.setLayers = function(layers) { this.body.activate(); this.layers
 Shape.prototype.setSensor = function(sensor) { this.body.activate(); this.sensor = sensor; };
 Shape.prototype.setCollisionType = function(collision_type) { this.body.activate(); this.collision_type = collision_type; };
 Shape.prototype.getBody = function() { return this.body; };
+    Shape.prototype.getCollisionType = function() { return this.collision_type; };
 
 Shape.prototype.active = function()
 {
