@@ -1,7 +1,7 @@
 package roll.gameplay.modules
 
 import scala.scalajs.js
-import org.scalajs.dom.extensions._
+import org.scalajs.dom.ext._
 import org.scalajs.dom
 import roll.{Xml, cp}
 import roll.cp.Implicits._
@@ -16,7 +16,7 @@ case class Beam(start: cp.Vect,
                  var strokeWidth: Double = 1.0,
                  var spots: List[Double] = Nil)
 
-class Beams(beamLines: Seq[Xml.Line], color: dom.extensions.Color){
+class Beams(beamLines: Seq[Xml.Line], color: dom.ext.Color){
 
   val beams: Seq[Beam] = for{
     Xml.Line(x1, y1, x2, y2, misc) <- beamLines
@@ -55,8 +55,8 @@ class Beams(beamLines: Seq[Xml.Line], color: dom.extensions.Color){
 }
 class Lasers(player: Form,
              laserElements: Seq[Xml.Line],
-             query: (cp.Vect, cp.Vect, js.Number) => SegmentQueryInfo,
-             pointQuery: (cp.Vect, js.Number) => cp.Shape,
+             query: (cp.Vect, cp.Vect, Double) => SegmentQueryInfo,
+             pointQuery: (cp.Vect, Double) => cp.Shape,
              kill: => Unit) extends Beams(laserElements, Color.Red){
   println("Laser " + laserElements.length)
   def update() = {

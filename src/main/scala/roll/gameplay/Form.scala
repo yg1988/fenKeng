@@ -4,7 +4,7 @@ import acyclic.file
 import scala.scalajs.js
 import roll.cp.Cp
 import org.scalajs.dom
-import org.scalajs.dom.extensions._
+import org.scalajs.dom.ext._
 import roll.cp.Implicits._
 import roll.cp
 import org.scalajs.dom
@@ -22,7 +22,7 @@ object Drawable{
     }
 
   }
-  case class Polygon(points: Seq[(js.Number, js.Number)]) extends Drawable{
+  case class Polygon(points: Seq[(Double, Double)]) extends Drawable{
     def draw(ctx: dom.CanvasRenderingContext2D) = {
       ctx.fillPath(points: _*)
       ctx.strokePath(points: _*)

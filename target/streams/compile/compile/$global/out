@@ -1,15 +1,63 @@
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
 [0m[[0mdebug[0m] [0m	removed:Set()[0m
-[0m[[0mdebug[0m] [0m	added: Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/Users/Owner/GitHub/fenKeng/src/main/scala/roll/cp/package.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/modules/Goal.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/Form.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/modules/Strokes.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/Util.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/Xml.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/modules/Lasers.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/Channels.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/modules/Player.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/cp/Implicits.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/Level.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/cp/Facades.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/modules/Antigravity.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/LibPimps.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/Roll.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/modules/Clouds.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/Camera.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/bundle.scala)[0m
 [0m[[0mdebug[0m] [0m	modified: Set()[0m
 [0m[[0mdebug[0m] [0mRemoved products: Set()[0m
 [0m[[0mdebug[0m] [0mModified external sources: Set()[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/Owner/GitHub/fenKeng/src/main/scala/roll/cp/package.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/modules/Goal.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/Form.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/modules/Strokes.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/Util.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/Xml.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/modules/Lasers.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/Channels.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/modules/Player.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/cp/Implicits.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/Level.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/cp/Facades.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/modules/Antigravity.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/LibPimps.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/Roll.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/modules/Clouds.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/Camera.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/bundle.scala)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m	product: Set()[0m
 [0m[[0mdebug[0m] [0m	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/Owner/GitHub/fenKeng/src/main/scala/roll/cp/package.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/modules/Goal.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/Form.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/modules/Strokes.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/Util.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/Xml.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/modules/Lasers.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/Channels.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/modules/Player.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/cp/Implicits.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/Level.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/cp/Facades.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/modules/Antigravity.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/LibPimps.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/Roll.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/modules/Clouds.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/Camera.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/bundle.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 18 sources: invalidated sources (18) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 18 Scala sources to /Users/Owner/GitHub/fenKeng/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.2[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.2[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 41faef47, interfacing (CompilerInterface) with Scala compiler version 2.11.2[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-Xplugin:/Users/Owner/.ivy2/cache/org.scala-lang.modules.scalajs/scalajs-compiler_2.11.2/jars/scalajs-compiler_2.11.2-0.5.6.jar[0m
+[0m[[0mdebug[0m] [0m	-Xplugin:/Users/Owner/.ivy2/cache/com.lihaoyi/acyclic_2.11/jars/acyclic_2.11-0.1.2.jar[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/classes:/Users/Owner/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.2.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/Owner/GitHub/fenKeng/target/scala-2.11/classes:/Users/Owner/.ivy2/cache/org.scala-lang.modules.scalajs/scalajs-library_2.11/jars/scalajs-library_2.11-0.5.6.jar:/Users/Owner/.ivy2/cache/org.scala-lang.modules.scalajs/scalajs-dom_sjs0.5_2.11/jars/scalajs-dom_sjs0.5_2.11-0.6.jar:/Users/Owner/.ivy2/cache/org.scala-lang.modules/scala-async_2.11/bundles/scala-async_2.11-0.9.1.jar:/Users/Owner/.ivy2/cache/com.lihaoyi/acyclic_2.11/jars/acyclic_2.11-0.1.2.jar[0m
+[0m[[33mwarn[0m] [0m/Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/Camera.scala:20: match may not be exhaustive.[0m
+[0m[[33mwarn[0m] [0mIt would fail on the following input: (true, true)[0m
+[0m[[33mwarn[0m] [0m      else (low, high) match {[0m
+[0m[[33mwarn[0m] [0m           ^[0m
+[0m[[33mwarn[0m] [0m/Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/Level.scala:144: match may not be exhaustive.[0m
+[0m[[33mwarn[0m] [0mIt would fail on the following inputs: Group(_, _), Line(_, _, _, _, _)[0m
+[0m[[33mwarn[0m] [0m    val (center, drawable, shape, area) = elem match {[0m
+[0m[[33mwarn[0m] [0m                                          ^[0m
+[0m[[33mwarn[0m] [0m/Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/Level.scala:113: scala.scalajs.js.Any and Int are unrelated: they will most likely never compare equal[0m
+[0m[[33mwarn[0m] [0m    if (arb.getB().getCollisionType() == 1) arb.getB().setCollisionType(3)[0m
+[0m[[33mwarn[0m] [0m                                      ^[0m
+[0m[[33mwarn[0m] [0m/Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/Level.scala:114: scala.scalajs.js.Any and Int are unrelated: they will most likely never compare equal[0m
+[0m[[33mwarn[0m] [0m    if (arb.getA().getCollisionType() == 1) arb.getA().setCollisionType(3)[0m
+[0m[[33mwarn[0m] [0m                                      ^[0m
+[0m[[33mwarn[0m] [0m/Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/Level.scala:119: scala.scalajs.js.Any and Int are unrelated: they will most likely never compare equal[0m
+[0m[[33mwarn[0m] [0m    if (arb.getB().getCollisionType() == 1) arb.getB().setCollisionType(0)[0m
+[0m[[33mwarn[0m] [0m                                      ^[0m
+[0m[[33mwarn[0m] [0m/Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/Level.scala:120: scala.scalajs.js.Any and Int are unrelated: they will most likely never compare equal[0m
+[0m[[33mwarn[0m] [0m    if (arb.getA().getCollisionType() == 1) arb.getA().setCollisionType(0)[0m
+[0m[[33mwarn[0m] [0m                                      ^[0m
+[0m[[33mwarn[0m] [0m/Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/modules/Player.scala:38: scala.scalajs.js.Any and Int are unrelated: they will most likely never compare equal[0m
+[0m[[33mwarn[0m] [0m    if (form.shapes.exists(_.getCollisionType() == 0)) {[0m
+[0m[[33mwarn[0m] [0m                                                ^[0m
+[0m[[33mwarn[0m] [0m/Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/modules/Player.scala:48: scala.scalajs.js.Any and Int are unrelated: they will most likely never compare equal[0m
+[0m[[33mwarn[0m] [0m    if (form.shapes.exists(_.getCollisionType() == 3)) {[0m
+[0m[[33mwarn[0m] [0m                                                ^[0m
+[0m[[33mwarn[0m] [0mthere were 8 deprecation warnings; re-run with -deprecation for details[0m
+[0m[[33mwarn[0m] [0mthere were two feature warnings; re-run with -feature for details[0m
+[0m[[33mwarn[0m] [0m10 warnings found[0m
+[0m[[0mdebug[0m] [0mScala compilation took 24.481711327 s[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/Users/Owner/GitHub/fenKeng/src/main/scala/roll/cp/package.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/modules/Goal.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/Form.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/modules/Strokes.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/Util.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/Xml.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/modules/Lasers.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/Channels.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/modules/Player.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/cp/Implicits.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/Level.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/cp/Facades.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/modules/Antigravity.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/LibPimps.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/Roll.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/modules/Clouds.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/Camera.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/bundle.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set(/Users/Owner/GitHub/fenKeng/src/main/scala/roll/cp/package.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/modules/Goal.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/Form.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/modules/Strokes.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/Util.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/Xml.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/modules/Lasers.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/modules/Player.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/cp/Implicits.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/Level.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/modules/Antigravity.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/Roll.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/modules/Clouds.scala, /Users/Owner/GitHub/fenKeng/src/main/scala/roll/gameplay/Camera.scala)[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m

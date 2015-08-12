@@ -1,7 +1,7 @@
 package roll.gameplay.modules
 
 import roll.cp.Implicits._
-import org.scalajs.dom.extensions._
+import org.scalajs.dom.ext._
 import roll.cp
 import org.scalajs.dom
 import roll.gameplay.{Drawable, Form}

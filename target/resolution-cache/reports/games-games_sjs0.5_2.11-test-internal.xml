@@ -7,7 +7,7 @@
 		revision="0.1-SNAPSHOT"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20150801185128"/>
+		date="20150811075722"/>
 	<dependencies>
 		<module organisation="com.lihaoyi" name="acyclic_2.11">
 			<revision name="0.1.2" status="release" pubdate="20140424034702" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/acyclic" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
@@ -49,8 +49,8 @@
 				<caller organisation="org.scala-lang.modules" name="scala-async_2.11" conf="default, compile, runtime, master" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="0.9.1"/>
 				<caller organisation="com.lihaoyi" name="acyclic_2.11" conf="default, compile, runtime, master" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="0.1.2"/>
 				<caller organisation="games" name="games_sjs0.5_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.11.2" rev-constraint-default="2.11.2" rev-constraint-dynamic="2.11.2" callerrev="0.1-SNAPSHOT"/>
-				<caller organisation="org.scala-lang.modules.scalajs" name="scalajs-library_2.11" conf="compile" rev="2.11.2" rev-constraint-default="2.11.2" rev-constraint-dynamic="2.11.2" callerrev="0.5.3"/>
 				<caller organisation="org.scala-lang.modules.scalajs" name="scalajs-dom_sjs0.5_2.11" conf="compile" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="0.6"/>
+				<caller organisation="org.scala-lang.modules.scalajs" name="scalajs-library_2.11" conf="compile" rev="2.11.2" rev-constraint-default="2.11.2" rev-constraint-dynamic="2.11.2" callerrev="0.5.6"/>
 				<artifacts>
 					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5545300" time="0" location="/Users/Owner/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.2.jar">
 						<origin-location is-local="false" location="file:/Users/Owner/Documents/activator-1.2.12/repository/org.scala-lang/scala-library/2.11.2/jars/scala-library.jar"/>
@@ -77,19 +77,19 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang.modules.scalajs" name="scalajs-library_2.11">
-			<revision name="0.5.3" status="release" pubdate="20140730194951" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="1">
+			<revision name="0.5.6" status="release" pubdate="20141119133854" resolver="scala-js-releases" artresolver="scala-js-releases" homepage="http://scala-js.org/" downloaded="true" searched="true" default="false" conf="compile, default(compile)" position="1">
 				<license name="BSD New" url="https://github.com/scala-js/scala-js/blob/master/LICENSE"/>
-				<metadata-artifact status="no" details="" size="1466" time="0" location="/Users/Owner/.ivy2/cache/org.scala-lang.modules.scalajs/scalajs-library_2.11/ivy-0.5.3.xml" searched="false" origin-is-local="false" origin-location="http://dl.bintray.com/content/scala-js/scala-js-releases/org.scala-lang.modules.scalajs/scalajs-library_2.11/0.5.3/ivys/ivy.xml"/>
-				<caller organisation="games" name="games_sjs0.5_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="0.5.3" rev-constraint-default="0.5.3" rev-constraint-dynamic="0.5.3" callerrev="0.1-SNAPSHOT"/>
+				<metadata-artifact status="successful" details="" size="1466" time="355" location="/Users/Owner/.ivy2/cache/org.scala-lang.modules.scalajs/scalajs-library_2.11/ivy-0.5.6.xml" searched="true" original-local-location="/Users/Owner/.ivy2/cache/org.scala-lang.modules.scalajs/scalajs-library_2.11/ivy-0.5.6.xml.original" origin-is-local="false" origin-location="http://dl.bintray.com/content/scala-js/scala-js-releases/org.scala-lang.modules.scalajs/scalajs-library_2.11/0.5.6/ivys/ivy.xml"/>
+				<caller organisation="games" name="games_sjs0.5_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="0.5.6" rev-constraint-default="0.5.6" rev-constraint-dynamic="0.5.6" callerrev="0.1-SNAPSHOT"/>
 				<caller organisation="org.scala-lang.modules.scalajs" name="scalajs-dom_sjs0.5_2.11" conf="compile" rev="0.5.0" rev-constraint-default="0.5.0" rev-constraint-dynamic="0.5.0" callerrev="0.6"/>
 				<artifacts>
-					<artifact name="scalajs-library_2.11" type="jar" ext="jar" status="no" details="" size="4656292" time="0" location="/Users/Owner/.ivy2/cache/org.scala-lang.modules.scalajs/scalajs-library_2.11/jars/scalajs-library_2.11-0.5.3.jar">
-						<origin-location is-local="false" location="http://dl.bintray.com/content/scala-js/scala-js-releases/org.scala-lang.modules.scalajs/scalajs-library_2.11/0.5.3/jars/scalajs-library_2.11.jar"/>
+					<artifact name="scalajs-library_2.11" type="jar" ext="jar" status="successful" details="" size="4852517" time="3755" location="/Users/Owner/.ivy2/cache/org.scala-lang.modules.scalajs/scalajs-library_2.11/jars/scalajs-library_2.11-0.5.6.jar">
+						<origin-location is-local="false" location="http://dl.bintray.com/content/scala-js/scala-js-releases/org.scala-lang.modules.scalajs/scalajs-library_2.11/0.5.6/jars/scalajs-library_2.11.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 			<revision name="0.5.0" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, default(compile)" position="-1">
-				<evicted-by rev="0.5.3"/>
+				<evicted-by rev="0.5.6"/>
 				<caller organisation="org.scala-lang.modules.scalajs" name="scalajs-dom_sjs0.5_2.11" conf="compile" rev="0.5.0" rev-constraint-default="0.5.0" rev-constraint-dynamic="0.5.0" callerrev="0.6"/>
 				<artifacts>
 				</artifacts>

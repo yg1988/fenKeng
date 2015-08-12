@@ -17,7 +17,7 @@ package object bundle {
   def create(value: String) = new Resource(value)
 
   class Resource(val base64: String){
-    lazy val string = js.Dynamic.global.atob(base64).asInstanceOf[js.String]
+    lazy val string = js.Dynamic.global.atob(base64).asInstanceOf[String]
   }
 
   println("scala-js-resource initialized")

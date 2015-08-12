@@ -1,7 +1,7 @@
 package roll.gameplay
 import acyclic.file
 import org.scalajs.dom
-import org.scalajs.dom.extensions._
+import org.scalajs.dom.ext._
 import roll.cp.Implicits._
 
 import roll.cp

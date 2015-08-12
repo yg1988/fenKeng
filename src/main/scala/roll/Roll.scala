@@ -4,7 +4,7 @@ import scala.collection.mutable
 import scala.scalajs.js._
 import scala.scalajs.js.Any._
 import cp.Implicits._
-import org.scalajs.dom.extensions._
+//import org.scalajs.dom.extensions._
 import org.scalajs.dom
 import roll.gameplay.Level
 import scala.scalajs.js.annotation.JSExport
@@ -15,7 +15,7 @@ import roll.gameplay.Level.Input
 
 
 
-class GameHolder(canvas: dom.HTMLCanvasElement){
+class GameHolder(canvas: dom.html.Canvas){
   class LevelData(val file: String,
                   var completed: Boolean,
                   var inputs: Seq[Level.Input])
@@ -127,7 +127,7 @@ object Roll extends scalajs.js.JSApp{
     val canvas =
       dom.document
         .getElementById("canvas")
-        .cast[dom.HTMLCanvasElement]
+        .asInstanceOf[dom.html.Canvas]
 
     val  gameHolder = new GameHolder(canvas)
     val touches = mutable.Buffer.empty[Touch]

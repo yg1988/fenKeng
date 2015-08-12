@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for games#games_sjs0.5_2.11;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1263eeba[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e3a136[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.2[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.11.2[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.2 in sbt-chain[0m
@@ -15,16 +15,37 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3 [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3->org.scala-lang#scala-library;2.11.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3->org.scala-lang#scala-library;2.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/Owner/.ivy2/local/org.scala-lang.modules.scalajs/scalajs-library_2.11/0.5.6/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/Owner/.activator/repository/org.scala-lang.modules.scalajs/scalajs-library_2.11/0.5.6/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-launcher-local: no ivy file found for org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/Owner/Downloads/activator-1.3.2/repository/org.scala-lang.modules.scalajs/scalajs-library_2.11/0.5.6/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/modules/scalajs/scalajs-library_2.11/0.5.6/scalajs-library_2.11-0.5.6.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/scala-lang/modules/scalajs/scalajs-library_2.11/0.5.6/scalajs-library_2.11-0.5.6.pom[0m
+[0m[[0mdebug[0m] [0m	public: no ivy file found for org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/scala-lang/modules/scalajs/scalajs-library_2.11/0.5.6/scalajs-library_2.11-0.5.6.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/scala-lang/modules/scalajs/scalajs-library_2.11/0.5.6/scalajs-library_2.11-0.5.6.pom[0m
+[0m[[0mdebug[0m] [0m	typesafe-releases: no ivy file found for org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.scala-lang.modules.scalajs/scalajs-library_2.11/0.5.6/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.scala-lang.modules.scalajs/scalajs-library_2.11/0.5.6/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releasez: no ivy file found for org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6[0m
+[0m[[0mdebug[0m] [0m		tried http://dl.bintray.com/content/scala-js/scala-js-releases/org.scala-lang.modules.scalajs/scalajs-library_2.11/0.5.6/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	scala-js-releases: found md file for org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6[0m
+[0m[[0mdebug[0m] [0m		=> http://dl.bintray.com/content/scala-js/scala-js-releases/org.scala-lang.modules.scalajs/scalajs-library_2.11/0.5.6/ivys/ivy.xml (0.5.6)[0m
+[0m[[0mdebug[0m] [0mdownloading http://dl.bintray.com/content/scala-js/scala-js-releases/org.scala-lang.modules.scalajs/scalajs-library_2.11/0.5.6/ivys/ivy.xml ...[0m
+[0m[[0mdebug[0m] [0m	scala-js-releases: downloading http://dl.bintray.com/content/scala-js/scala-js-releases/org.scala-lang.modules.scalajs/scalajs-library_2.11/0.5.6/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	scala-js-releases: downloading http://dl.bintray.com/content/scala-js/scala-js-releases/org.scala-lang.modules.scalajs/scalajs-library_2.11/0.5.6/ivys/ivy.xml.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://dl.bintray.com/content/scala-js/scala-js-releases/org.scala-lang.modules.scalajs/scalajs-library_2.11/0.5.6/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6!ivy.xml(ivy.original) (355ms)[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6 in scala-js-releases[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6 {compile=[default(compile)]}[0m
@@ -37,7 +58,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-async_2.11;0.9.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-async_2.11;0.9.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-async_2.11;0.9.1 {compile=[default(compile)]}[0m
@@ -61,11 +82,11 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3->org.scala-lang#scala-library;2.11.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3->org.scala-lang#scala-library;2.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->default(compile)][0m
@@ -73,7 +94,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-async_2.11;0.9.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-async_2.11;0.9.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-async_2.11;0.9.1 [compile->compile][0m
@@ -93,11 +114,11 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3->org.scala-lang#scala-library;2.11.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3->org.scala-lang#scala-library;2.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->default(compile)][0m
@@ -105,7 +126,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-async_2.11;0.9.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-async_2.11;0.9.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-async_2.11;0.9.1 [compile->compile][0m
@@ -121,7 +142,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for games#games_sjs0.5_2.11;0.1-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->com.lihaoyi#acyclic_2.11;0.1.2 [provided->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.lihaoyi#acyclic_2.11;0.1.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@115f98fc[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2670f60f[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.lihaoyi#acyclic_2.11;0.1.2[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: com.lihaoyi#acyclic_2.11;0.1.2[0m
 [0m[[0mdebug[0m] [0m	found com.lihaoyi#acyclic_2.11;0.1.2 in sbt-chain[0m
@@ -147,11 +168,11 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3->org.scala-lang#scala-library;2.11.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3->org.scala-lang#scala-library;2.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->default(compile)][0m
@@ -159,7 +180,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-async_2.11;0.9.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-async_2.11;0.9.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-async_2.11;0.9.1 [compile->compile][0m
@@ -192,11 +213,11 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3->org.scala-lang#scala-library;2.11.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3->org.scala-lang#scala-library;2.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->default(compile)][0m
@@ -204,7 +225,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-async_2.11;0.9.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-async_2.11;0.9.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-async_2.11;0.9.1 [compile->compile][0m
@@ -226,11 +247,11 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3->org.scala-lang#scala-library;2.11.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3->org.scala-lang#scala-library;2.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->default(compile)][0m
@@ -238,7 +259,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang#scala-library;2.11.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6->org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-async_2.11;0.9.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-async_2.11;0.9.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-async_2.11;0.9.1 [compile->compile][0m
@@ -265,20 +286,41 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->com.lihaoyi#acyclic_2.11;0.1.2 [provided->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for games#games_sjs0.5_2.11;0.1-SNAPSHOT [plugin][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.3 [plugin->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.3 {plugin=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.3[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.3[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.3 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.3->org.scala-lang#scala-compiler;2.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.6 [plugin->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.6 {plugin=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/Owner/.ivy2/local/org.scala-lang.modules.scalajs/scalajs-compiler_2.11.2/0.5.6/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.6[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/Owner/.activator/repository/org.scala-lang.modules.scalajs/scalajs-compiler_2.11.2/0.5.6/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-launcher-local: no ivy file found for org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.6[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/Owner/Downloads/activator-1.3.2/repository/org.scala-lang.modules.scalajs/scalajs-compiler_2.11.2/0.5.6/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.6[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/modules/scalajs/scalajs-compiler_2.11.2/0.5.6/scalajs-compiler_2.11.2-0.5.6.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/scala-lang/modules/scalajs/scalajs-compiler_2.11.2/0.5.6/scalajs-compiler_2.11.2-0.5.6.pom[0m
+[0m[[0mdebug[0m] [0m	public: no ivy file found for org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.6[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/scala-lang/modules/scalajs/scalajs-compiler_2.11.2/0.5.6/scalajs-compiler_2.11.2-0.5.6.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/scala-lang/modules/scalajs/scalajs-compiler_2.11.2/0.5.6/scalajs-compiler_2.11.2-0.5.6.pom[0m
+[0m[[0mdebug[0m] [0m	typesafe-releases: no ivy file found for org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.6[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.scala-lang.modules.scalajs/scalajs-compiler_2.11.2/0.5.6/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.scala-lang.modules.scalajs/scalajs-compiler_2.11.2/0.5.6/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releasez: no ivy file found for org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.6[0m
+[0m[[0mdebug[0m] [0m		tried http://dl.bintray.com/content/scala-js/scala-js-releases/org.scala-lang.modules.scalajs/scalajs-compiler_2.11.2/0.5.6/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	scala-js-releases: found md file for org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.6[0m
+[0m[[0mdebug[0m] [0m		=> http://dl.bintray.com/content/scala-js/scala-js-releases/org.scala-lang.modules.scalajs/scalajs-compiler_2.11.2/0.5.6/ivys/ivy.xml (0.5.6)[0m
+[0m[[0mdebug[0m] [0mdownloading http://dl.bintray.com/content/scala-js/scala-js-releases/org.scala-lang.modules.scalajs/scalajs-compiler_2.11.2/0.5.6/ivys/ivy.xml ...[0m
+[0m[[0mdebug[0m] [0m	scala-js-releases: downloading http://dl.bintray.com/content/scala-js/scala-js-releases/org.scala-lang.modules.scalajs/scalajs-compiler_2.11.2/0.5.6/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	scala-js-releases: downloading http://dl.bintray.com/content/scala-js/scala-js-releases/org.scala-lang.modules.scalajs/scalajs-compiler_2.11.2/0.5.6/ivys/ivy.xml.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://dl.bintray.com/content/scala-js/scala-js-releases/org.scala-lang.modules.scalajs/scalajs-compiler_2.11.2/0.5.6/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.6!ivy.xml(ivy.original) (425ms)[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.6 in scala-js-releases[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.6->org.scala-lang#scala-compiler;2.11.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.11.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.2[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-compiler;2.11.2[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.11.2 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.3->org.scala-lang#scala-compiler;2.11.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.3->org.scala-lang#scala-compiler;2.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.6->org.scala-lang#scala-compiler;2.11.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.6->org.scala-lang#scala-compiler;2.11.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-reflect;2.11.2 [compile->master(*)][0m
@@ -333,15 +375,15 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.3->org.scala-lang#scala-compiler;2.11.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.3->org.scala-lang#scala-library;2.11.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.3->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.3->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.3->org.scala-lang#scala-library;2.11.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.3->org.scala-lang#scala-reflect;2.11.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.3->org.scala-lang#scala-reflect;2.11.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.3->org.scala-lang#scala-reflect;2.11.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.3->org.scala-lang#scala-reflect;2.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.6->org.scala-lang#scala-compiler;2.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.6->org.scala-lang#scala-library;2.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.6->org.scala-lang#scala-reflect;2.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.6->org.scala-lang#scala-reflect;2.11.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.6->org.scala-lang#scala-reflect;2.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.6->org.scala-lang#scala-reflect;2.11.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->com.lihaoyi#acyclic_2.11;0.1.2 [plugin->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->com.lihaoyi#acyclic_2.11;0.1.2 [plugin->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies games#games_sjs0.5_2.11;0.1-SNAPSHOT->com.lihaoyi#acyclic_2.11;0.1.2 [plugin->compile][0m
@@ -420,18 +462,28 @@
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/Owner/GitHub/fenKeng/target/resolution-cache/games/games_sjs0.5_2.11/0.1-SNAPSHOT/resolved.xml.xml[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.2!scala-library.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.3!scalajs-library_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://dl.bintray.com/content/scala-js/scala-js-releases/org.scala-lang.modules.scalajs/scalajs-library_2.11/0.5.6/jars/scalajs-library_2.11.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://dl.bintray.com/content/scala-js/scala-js-releases/org.scala-lang.modules.scalajs/scalajs-library_2.11/0.5.6/jars/scalajs-library_2.11.jar ...[0m
+[0m[[0mdebug[0m] [0m	scala-js-releases: downloading http://dl.bintray.com/content/scala-js/scala-js-releases/org.scala-lang.modules.scalajs/scalajs-library_2.11/0.5.6/jars/scalajs-library_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	scala-js-releases: downloading http://dl.bintray.com/content/scala-js/scala-js-releases/org.scala-lang.modules.scalajs/scalajs-library_2.11/0.5.6/jars/scalajs-library_2.11.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://dl.bintray.com/content/scala-js/scala-js-releases/org.scala-lang.modules.scalajs/scalajs-library_2.11/0.5.6/jars/scalajs-library_2.11.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules.scalajs#scalajs-library_2.11;0.5.6!scalajs-library_2.11.jar (3755ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules.scalajs#scalajs-dom_sjs0.5_2.11;0.6!scalajs-dom_sjs0.5_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-async_2.11;0.9.1!scala-async_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.0!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.lihaoyi#acyclic_2.11;0.1.2!acyclic_2.11.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.3!scalajs-compiler_2.11.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://dl.bintray.com/content/scala-js/scala-js-releases/org.scala-lang.modules.scalajs/scalajs-compiler_2.11.2/0.5.6/jars/scalajs-compiler_2.11.2.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://dl.bintray.com/content/scala-js/scala-js-releases/org.scala-lang.modules.scalajs/scalajs-compiler_2.11.2/0.5.6/jars/scalajs-compiler_2.11.2.jar ...[0m
+[0m[[0mdebug[0m] [0m	scala-js-releases: downloading http://dl.bintray.com/content/scala-js/scala-js-releases/org.scala-lang.modules.scalajs/scalajs-compiler_2.11.2/0.5.6/jars/scalajs-compiler_2.11.2.jar[0m
+[0m[[0mdebug[0m] [0m	scala-js-releases: downloading http://dl.bintray.com/content/scala-js/scala-js-releases/org.scala-lang.modules.scalajs/scalajs-compiler_2.11.2/0.5.6/jars/scalajs-compiler_2.11.2.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://dl.bintray.com/content/scala-js/scala-js-releases/org.scala-lang.modules.scalajs/scalajs-compiler_2.11.2/0.5.6/jars/scalajs-compiler_2.11.2.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules.scalajs#scalajs-compiler_2.11.2;0.5.6!scalajs-compiler_2.11.2.jar (2456ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.2!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.2!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2!scala-parser-combinators_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 534ms :: artifacts dl 44ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2827ms :: artifacts dl 6230ms[0m
 [0m[[0mdebug[0m] [0m	report for games#games_sjs0.5_2.11;0.1-SNAPSHOT compile produced in /Users/Owner/GitHub/fenKeng/target/resolution-cache/reports/games-games_sjs0.5_2.11-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for games#games_sjs0.5_2.11;0.1-SNAPSHOT runtime produced in /Users/Owner/GitHub/fenKeng/target/resolution-cache/reports/games-games_sjs0.5_2.11-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for games#games_sjs0.5_2.11;0.1-SNAPSHOT test produced in /Users/Owner/GitHub/fenKeng/target/resolution-cache/reports/games-games_sjs0.5_2.11-test.xml[0m
@@ -445,5 +497,5 @@
 [0m[[0mdebug[0m] [0m	report for games#games_sjs0.5_2.11;0.1-SNAPSHOT docs produced in /Users/Owner/GitHub/fenKeng/target/resolution-cache/reports/games-games_sjs0.5_2.11-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for games#games_sjs0.5_2.11;0.1-SNAPSHOT pom produced in /Users/Owner/GitHub/fenKeng/target/resolution-cache/reports/games-games_sjs0.5_2.11-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for games#games_sjs0.5_2.11;0.1-SNAPSHOT scala-tool produced in /Users/Owner/GitHub/fenKeng/target/resolution-cache/reports/games-games_sjs0.5_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (534ms resolve - 44ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (2827ms resolve - 6230ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

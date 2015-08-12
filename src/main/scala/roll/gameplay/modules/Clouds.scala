@@ -6,7 +6,7 @@ import cp.Implicits._
 
 class Clouds(widest: cp.Vect) {
   val cloudImg =
-    dom.extensions
+    dom.ext
       .Image
       .createBase64Svg(scala.js.bundle.apply("sprites/Cloud.svg").base64)
 

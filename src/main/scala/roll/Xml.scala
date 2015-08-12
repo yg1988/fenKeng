@@ -1,7 +1,9 @@
 package roll
-
+import scala.scalajs.js
 import org.scalajs.dom
-import org.scalajs.dom.extensions._
+import scala.scalajs.js._
+import org.scalajs.dom.svg._
+import org.scalajs.dom.ext._
 import cp.Implicits._
 import roll.cp.Cp
 import roll.gameplay.Form
@@ -16,7 +18,7 @@ import roll.gameplay.Form
  */
 sealed trait Xml{
   def get(s: String) =
-    this.cast[Xml.Group]
+    this.asInstanceOf[Xml.Group]
       .children
       .find(_.misc.id == s)
 
@@ -57,10 +59,10 @@ object Xml {
             val svg =
               dom.document
                 .createElementNS("http://www.w3.org/2000/svg", "svg")
-                .cast[dom.SVGSVGElement]
+                .asInstanceOf[SVG]
 
             val transforms =
-              el.cast[dom.SVGRectElement]
+              el.asInstanceOf[RectElement]
                 .transform
                 .baseVal
 
@@ -89,7 +91,7 @@ object Xml {
           .split("\\s+")
           .toSeq
           .map(_.split(","))
-          .map{ case Array(x, y) => (x.toDouble, y.toDouble)}
+          .map{ case stringArray if(stringArray.length==2) => (stringArray(0).toDouble, stringArray(1).toDouble)}
 
         val finalPoints =
           if(Cp.areaForPoly(Form.flatten2(pts)) > 0) pts
@@ -97,7 +99,11 @@ object Xml {
         Polygon(finalPoints, misc) :: Nil
 
       case "g" | "svg" =>
-        Group(el.children.flatMap(parse), misc) :: Nil
+        dom.console.log(el)
+        dom.console.log(el.children)
+        dom.console.log(el.childNodes)
+        Group(el.childNodes.filter(node=>node.nodeType!=3 ).flatMap(node=>parse(node.asInstanceOf[Element])), misc) :: Nil
+        //Group(el.children.flatMap(parse), misc) :: Nil
       case _ =>
         Nil
     }

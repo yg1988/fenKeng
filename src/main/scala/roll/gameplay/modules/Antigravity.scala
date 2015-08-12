@@ -4,7 +4,7 @@ import roll.cp
 import roll.gameplay.{Layers, Drawable}
 import scala.scalajs.js
 import org.scalajs.dom
-import org.scalajs.dom.extensions._
+import org.scalajs.dom.ext._
 import roll.cp.Implicits._
 import scala.collection.mutable
 
@@ -21,7 +21,7 @@ case class Field(center: cp.Vect,
 
 class Antigravity(fields: Seq[Field],
                   query: (cp.Shape, Function2[cp.Shape, js.Any, Unit]) => Unit,
-                  pointQuery: (cp.Vect, js.Number) => cp.Shape){
+                  pointQuery: (cp.Vect, Double) => cp.Shape){
 
   def rand = util.Random.nextDouble()
   for(field <- fields){

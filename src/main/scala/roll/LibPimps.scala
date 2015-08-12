@@ -21,29 +21,29 @@ case class Ref[T](var v: T){
 }
 
 class PointerEvent extends dom.MouseEvent {
-  var width: js.Number = _
-  var rotation: js.Number = _
-  var pressure: js.Number = _
+  var width: Double = _
+  var rotation: Double = _
+  var pressure: Double = _
   var pointerType: js.Any = _
-  var isPrimary: js.Boolean = _
-  var tiltY: js.Number = _
-  var height: js.Number = _
+  var isPrimary: Boolean = _
+  var tiltY: Double = _
+  var height: Double = _
   var intermediatePoints: js.Any = _
   var currentPoint: js.Any = _
-  var tiltX: js.Number = _
-  var hwTimestamp: js.Number = _
-  var pointerId: js.Number = _
-  def initPointerEvent(typeArg: js.String, canBubbleArg: js.Boolean, cancelableArg: js.Boolean, viewArg: dom.Window, detailArg: js.Number, screenXArg: js.Number, screenYArg: js.Number, clientXArg: js.Number, clientYArg: js.Number, ctrlKeyArg: js.Boolean, altKeyArg: js.Boolean, shiftKeyArg: js.Boolean, metaKeyArg: js.Boolean, buttonArg: js.Number, relatedTargetArg: dom.EventTarget, offsetXArg: js.Number, offsetYArg: js.Number, widthArg: js.Number, heightArg: js.Number, pressure: js.Number, rotation: js.Number, tiltX: js.Number, tiltY: js.Number, pointerIdArg: js.Number, pointerType: js.Any, hwTimestampArg: js.Number, isPrimary: js.Boolean): Unit = ???
+  var tiltX: Double = _
+  var hwTimestamp: Double = _
+  var pointerId: Double = _
+  def initPointerEvent(typeArg: String, canBubbleArg: Boolean, cancelableArg: Boolean, viewArg: dom.Window, detailArg: Double, screenXArg: Double, screenYArg: Double, clientXArg: Double, clientYArg: Double, ctrlKeyArg: Boolean, altKeyArg: Boolean, shiftKeyArg: Boolean, metaKeyArg: Boolean, buttonArg: Double, relatedTargetArg: dom.EventTarget, offsetXArg: Double, offsetYArg: Double, widthArg: Double, heightArg: Double, pressure: Double, rotation: Double, tiltX: Double, tiltY: Double, pointerIdArg: Double, pointerType: js.Any, hwTimestampArg: Double, isPrimary: Boolean): Unit = ???
   def getCurrentPoint(element: dom.Element): Unit = ???
   def getIntermediatePoints(element: dom.Element): Unit = ???
-  var MSPOINTER_TYPE_PEN: js.Number = _
-  var MSPOINTER_TYPE_MOUSE: js.Number = _
-  var MSPOINTER_TYPE_TOUCH: js.Number = _
+  var MSPOINTER_TYPE_PEN: Double = _
+  var MSPOINTER_TYPE_MOUSE: Double = _
+  var MSPOINTER_TYPE_TOUCH: Double = _
 }
 
 object PointerEvent extends js.Object {
   /* ??? ConstructorMember(FunSignature(List(),List(),Some(TypeRef(TypeName(MSPointerEvent),List())))) */
-  var MSPOINTER_TYPE_PEN: js.Number = _
-  var MSPOINTER_TYPE_MOUSE: js.Number = _
-  var MSPOINTER_TYPE_TOUCH: js.Number = _
+  var MSPOINTER_TYPE_PEN: Double = _
+  var MSPOINTER_TYPE_MOUSE: Double = _
+  var MSPOINTER_TYPE_TOUCH: Double = _
 }

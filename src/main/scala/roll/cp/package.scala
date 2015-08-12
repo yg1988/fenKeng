@@ -10,9 +10,9 @@ package object cp{
   object Cp extends js.Object{
 
     def momentForBox(m: Double, width: Double, height: Double): Double = ???
-    def areaForPoly(verts: js.Array[Double]): Double = ???
-    def momentForPoly(m: Double, verts: js.Array[Double], offset: Vect): Double = ???
-    def centroidForPoly(verts: js.Array[Double]): Vect = ???
-    def recenterPoly(verts: js.Array[Double]): Unit = ???
+    def areaForPoly(verts: Array[Double]): Double = ???
+    def momentForPoly(m: Double, verts: Array[Double], offset: Vect): Double = ???
+    def centroidForPoly(verts: Array[Double]): Vect = ???
+    def recenterPoly(verts: Array[Double]): Unit = ???
   }
 }

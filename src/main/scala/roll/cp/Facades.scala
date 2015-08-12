@@ -19,7 +19,7 @@ class Shape(body: Body) extends js.Object{
   def getCollisionType(): js.Any = ???
 
   def getBody(): Body = ???
-  def active(): js.Boolean = ???
+  def active(): Boolean = ???
   def setBody(b: Body) = ???
   def cacheBB(): js.Any = ???
   def getBB(): BB = ???
@@ -43,7 +43,7 @@ class CircleShape(body: Body, radius: Double, var offset: Vect) extends Shape(bo
 @JSName("cp.SegmentShape")
 class SegmentShape(body: Body, var a: Vect, var b: Vect, var r: Double) extends Shape(body)
 @JSName("cp.PolyShape")
-class PolyShape(body: Body, var verts: js.Array[Double], var offset: Vect) extends Shape(body)
+class PolyShape(body: Body, var verts: Array[Double], var offset: Vect) extends Shape(body)
 
 @JSName("cp.BoxShape")
 object BoxShape extends js.Object{
@@ -60,9 +60,9 @@ class Body(val m: Double, val i: Double) extends js.Object{
   def getPos(): Vect = ???
   def getVel(): Vect = ???
   def getAngVel(): Double = ???
-  def isSleeping(): js.Boolean = ???
-  def isStatic(): js.Boolean = ???
-  def isRogue(): js.Boolean = ???
+  def isSleeping(): Boolean = ???
+  def isStatic(): Boolean = ???
+  def isRogue(): Boolean = ???
   def setMass(mass: Double): Unit = ???
   def setMoment(moment: Double): Unit = ???
   def addShape(shape: Shape): Shape = ???
@@ -95,13 +95,13 @@ class Arbiter extends js.Object{
   def ignore(): Unit = ???
   def getA(): Shape = ???
   def getB(): Shape = ???
-  def isFirstContact(): js.Boolean = ???
+  def isFirstContact(): Boolean = ???
 }
 @JSName("cp.Space")
 class Space() extends js.Object{
   def getCurrentTimeStep(): Double = ???
   def setIterations(iter: Double): Unit = ???
-  def isLocked(): js.Boolean = ???
+  def isLocked(): Boolean = ???
   def addCollisionHandler(a: js.Any, b: js.Any, preSolve: js.Function2[Arbiter, Space, Unit], postSolve: js.Function2[Arbiter, Space, Unit], separate: js.Function2[Arbiter, Space, Unit]): Unit = ???
   def removeCollisionHandler(a: js.Any, b: js.Any): Unit = ???
   def setDefaultCollisionHandler(preSolve: js.Any, postSolve: js.Any, separate: js.Any): Unit = ???
@@ -115,9 +115,9 @@ class Space() extends js.Object{
   def removeStaticShape(shape: Shape): Unit = ???
   def removeBody(body: Body): Unit = ???
   def removeConstraint(constraint: js.Any): Unit = ???
-  def containsShape(shape: Shape): js.Boolean= ???
-  def containsBody(body: Body): js.Boolean= ???
-  def containsConstraint(constaint: js.Any): js.Boolean = ???
+  def containsShape(shape: Shape): Boolean= ???
+  def containsBody(body: Body): Boolean= ???
+  def containsConstraint(constaint: js.Any): Boolean = ???
   def step(dt: Double): Unit = ???
 
   def pointQuery(point: Vect, layers: Double, group: Double, func: js.Function1[Shape, Unit]): Unit = ???

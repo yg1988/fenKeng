@@ -5,7 +5,7 @@ package modules
 import scala.scalajs.js
 
 import roll.cp.Implicits._
-import org.scalajs.dom.extensions._
+import org.scalajs.dom.ext._
 import org.scalajs.dom
 import roll.cp
 import roll.gameplay.Layers
@@ -21,7 +21,7 @@ class Strokes(space: cp.Space){
 
   var frame = 0L
   var prev: Option[cp.Vect] = None
-  def drawStatic(ctx: dom.CanvasRenderingContext2D, w: js.Number, h: js.Number) = {
+  def drawStatic(ctx: dom.CanvasRenderingContext2D, w: Double, h: Double) = {
     ctx.fillStyle = Color.Cyan.toString
     ctx.fillRect(0, h - 10, w * 1.0 * remaining / max, 10)
   }

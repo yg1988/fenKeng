@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="SBT 1" modules="root">
+    <profile name="SBT 1" modules="fenkeng">
       <plugins>
-        <plugin path="$USER_HOME$/.ivy2/cache/org.scala-lang.modules.scalajs/scalajs-compiler_2.11.2/jars/scalajs-compiler_2.11.2-0.5.3.jar" />
-        <plugin path="$USER_HOME$/.ivy2/cache/com.lihaoyi/acyclic_2.11/jars/acyclic_2.11-0.1.2.jar" />
+        <plugin path="$USER_HOME$/.ivy2/cache/org.scala-js/scalajs-compiler_2.11.7/jars/scalajs-compiler_2.11.7-0.6.4.jar" />
       </plugins>
     </profile>
   </component>

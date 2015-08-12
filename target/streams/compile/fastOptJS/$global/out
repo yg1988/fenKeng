@@ -1,12 +1,12 @@
 [0m[[0minfo[0m] [0mFast optimizing /Users/Owner/GitHub/fenKeng/target/scala-2.11/games-fastopt.js[0m
-[0m[[0mdebug[0m] [0mRead info: 6439 us[0m
-[0m[[0mdebug[0m] [0mCompute reachability: 217422 us[0m
-[0m[[0mdebug[0m] [0mOptimizer batch mode: false[0m
-[0m[[0mdebug[0m] [0mIncremental part of inc. optimizer: 20427 us[0m
-[0m[[0mdebug[0m] [0mOptimizing 562 methods.[0m
-[0m[[0mdebug[0m] [0mOptimizer part of inc. optimizer: 141389 us[0m
-[0m[[0mdebug[0m] [0mInliner: 161987 us[0m
-[0m[[0mdebug[0m] [0mRefined reachability analysis: 68400 us[0m
-[0m[[0mdebug[0m] [0mOptimizations part: 447972 us[0m
-[0m[[0mdebug[0m] [0mWrite DCE'ed output: 296912 us[0m
-[0m[[0mdebug[0m] [0mInc. opt stats: reused: 3371 -- invalidated: 15 -- trees read: 11[0m
+[0m[[0mdebug[0m] [0mRead info: 340426 us[0m
+[0m[[0mdebug[0m] [0mCompute reachability: 369812 us[0m
+[0m[[0mdebug[0m] [0mOptimizer batch mode: true[0m
+[0m[[0mdebug[0m] [0mIncremental part of inc. optimizer: 808632 us[0m
+[0m[[0mdebug[0m] [0mOptimizing 4774 methods.[0m
+[0m[[0mdebug[0m] [0mOptimizer part of inc. optimizer: 1364504 us[0m
+[0m[[0mdebug[0m] [0mInliner: 2176275 us[0m
+[0m[[0mdebug[0m] [0mRefined reachability analysis: 141733 us[0m
+[0m[[0mdebug[0m] [0mOptimizations part: 2692277 us[0m
+[0m[[0mdebug[0m] [0mWrite DCE'ed output: 1885244 us[0m
+[0m[[0mdebug[0m] [0mInc. opt stats: reused: 0 -- invalidated: 3471 -- trees read: 449[0m
